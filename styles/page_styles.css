@@ -42,7 +42,7 @@ body
 	font-size: 14px;
 	font-weight: 400;
 	background: #FFFFFF;
-	color: #a5a5a5;
+	color: #000;
 }
 div
 {
@@ -61,9 +61,8 @@ p
 {
 	font-family: 'Raleway', sans-serif;
 	font-size: 14px;
-	line-height: 2;
 	font-weight: 400;
-	color: #929191;
+	color: #000;
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
 	text-shadow: rgba(0,0,0,.01) 0 0 1px;
@@ -1056,11 +1055,6 @@ figure {
 	padding-right: 150px;
 	padding-top: 103px;
 	padding-bottom: 114px;
-}
-
-.program_block
-{
-	padding-bottom: 30px;
 }
 
 .program_block h1
