@@ -256,8 +256,8 @@ section
 }
 .button
 {
-	width: 205px;
-	height: 52px;
+	width: 150px;
+	height: 40px;
 	text-align: center;
 	overflow: hidden;
 	margin-bottom: 5px;
@@ -285,7 +285,7 @@ section
 {
 	display: block;
 	position: relative;
-	line-height: 52px;
+	line-height: 40px;
 	font-size: 14px;
 	font-weight: 500;
 	color: #FFFFFF;
@@ -881,20 +881,23 @@ section
 .cta
 {
 	width: 100%;
-	padding-top: 105px;
-	padding-bottom: 101px;
+	height: 66px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background: linear-gradient(180deg, #476BC3 0%, #4081D5 44.79%, #339CEC 100%);
 }
 .cta_title
 {
-	font-size: 48px;
+	font-size: 18px;
 	color: #FFFFFF;
-	font-weight: 400;
+	margin-top: 10px;
 }
 .cta_button
 {
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 27px;
+	margin-top: 3px;
+	border: solid 1px #fff;
 }
 
 /*********************************
