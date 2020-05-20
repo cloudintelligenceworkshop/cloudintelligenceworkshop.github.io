@@ -254,8 +254,8 @@ section
 }
 .button
 {
-	width: 205px;
-	height: 52px;
+	width: 150px;
+	height: 40px;
 	text-align: center;
 	overflow: hidden;
 	margin-bottom: 5px;
@@ -283,7 +283,7 @@ section
 {
 	display: block;
 	position: relative;
-	line-height: 52px;
+	line-height: 40px;
 	font-size: 14px;
 	font-weight: 500;
 	color: #FFFFFF;
@@ -504,6 +504,7 @@ section
 	font-weight: 600;
 	color: #FFFFFF;
 	margin-top: 30px;
+	margin-bottom: 20px;
 }
 .home_title
 {
@@ -814,7 +815,11 @@ section
 {
 	display: inline-block;
 	vertical-align: middle;
-	margin-left: 26px;
+}
+.hero_button
+{
+	display: inline-block;
+	vertical-align: middle;
 }
 
 /*********************************
