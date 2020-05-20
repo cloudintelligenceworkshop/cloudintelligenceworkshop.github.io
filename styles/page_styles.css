@@ -229,8 +229,8 @@ section
 }
 .parallax-window
 {
-    min-height: 400px;
-    background: transparent;
+	min-height: 125px;
+    background: linear-gradient(180deg, #4867C1 0%, #4180D4 50.96%, #3698E9 106.35%);;
 }
 .parallax_background
 {
@@ -477,7 +477,7 @@ section
 .home
 {
 	width: 100%;
-	height: 484px;
+	height: 335px;
 }
 .home_background
 {
@@ -494,12 +494,12 @@ section
 {
 	position: absolute;
 	left: 0;
-	bottom: 110px;
+	bottom: 50px;
 	width: 100%;
 }
 .current_page
 {
-	font-size: 60px;
+	font-size: 34px;
 	font-weight: 500;
 	color: #FFFFFF;
 	line-height: 0.75;
