@@ -500,13 +500,14 @@ section
 }
 .home_date
 {
-	font-size: 18px;
-	font-weight: 700;
+	font-size: 24px;
+	font-weight: 600;
 	color: #FFFFFF;
+	margin-top: 30px;
 }
 .home_title
 {
-	font-size: 60px;
+	font-size: 50px;
 	font-weight: 500;
 	color: #FFFFFF;
 	margin-top: -5px;
@@ -514,10 +515,9 @@ section
 }
 .home_location
 {
-	font-size: 36px;
+	font-size: 24px;
 	font-weight: 500;
 	color: #FFFFFF;
-	margin-top: -13px;
 }
 .home_text
 {
