@@ -75,3 +75,15 @@
   width: 100%;
   margin-left: 0px;
 }
+.logo_link_mobile a {
+  color: #fff;
+  text-decoration: underline;
+}
+.menu_item_mobile a {
+  color: #fff;
+  text-decoration: underline;
+  display: inline-block;
+  position: relative;
+  font-size: 30px;
+  font-weight: 500;
+}
