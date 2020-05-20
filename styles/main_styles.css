@@ -1199,6 +1199,10 @@ section
 
 .cta
 {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	bottom: -166px;
 	height: 66px;
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -1228,7 +1232,7 @@ section
 	background: #fff;	
 	position: absolute;
 	left: 0;
-  	bottom: -500px;
+  	bottom: -230px;
 }
 .footer_content
 {
