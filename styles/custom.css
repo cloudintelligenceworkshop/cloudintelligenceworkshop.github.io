@@ -31,7 +31,6 @@
 }
 .program_content_collapsing {
   padding-top: 10px;
-  padding-left: 50px;
   padding-right: 50px;		
   padding-bottom: 10px;
 }
@@ -75,4 +74,16 @@
   display: inline-block;
   width: 100%;
   margin-left: 0px;
+}
+.logo_link_mobile a {
+  color: #fff;
+  text-decoration: underline;
+}
+.menu_item_mobile a {
+  color: #fff;
+  text-decoration: underline;
+  display: inline-block;
+  position: relative;
+  font-size: 30px;
+  font-weight: 500;
 }

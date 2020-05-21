@@ -42,7 +42,7 @@ body
 	font-size: 14px;
 	font-weight: 400;
 	background: #FFFFFF;
-	color: #a5a5a5;
+	color: #000;
 }
 div
 {
@@ -61,9 +61,8 @@ p
 {
 	font-family: 'Raleway', sans-serif;
 	font-size: 14px;
-	line-height: 2;
 	font-weight: 400;
-	color: #929191;
+	color: #000;
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
 	text-shadow: rgba(0,0,0,.01) 0 0 1px;
@@ -229,8 +228,8 @@ section
 }
 .parallax-window
 {
-    min-height: 400px;
-    background: transparent;
+	min-height: 125px;
+    background: linear-gradient(180deg, #4867C1 0%, #4180D4 50.96%, #3698E9 106.35%);;
 }
 .parallax_background
 {
@@ -257,8 +256,8 @@ section
 }
 .button
 {
-	width: 205px;
-	height: 52px;
+	width: 150px;
+	height: 40px;
 	text-align: center;
 	overflow: hidden;
 	margin-bottom: 5px;
@@ -286,7 +285,7 @@ section
 {
 	display: block;
 	position: relative;
-	line-height: 52px;
+	line-height: 40px;
 	font-size: 14px;
 	font-weight: 500;
 	color: #FFFFFF;
@@ -477,7 +476,7 @@ section
 .home
 {
 	width: 100%;
-	height: 484px;
+	height: 335px;
 }
 .home_background
 {
@@ -494,12 +493,12 @@ section
 {
 	position: absolute;
 	left: 0;
-	bottom: 110px;
+	bottom: 50px;
 	width: 100%;
 }
 .current_page
 {
-	font-size: 60px;
+	font-size: 34px;
 	font-weight: 500;
 	color: #FFFFFF;
 	line-height: 0.75;
@@ -882,20 +881,23 @@ section
 .cta
 {
 	width: 100%;
-	padding-top: 105px;
-	padding-bottom: 101px;
+	height: 66px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background: linear-gradient(180deg, #476BC3 0%, #4081D5 44.79%, #339CEC 100%);
 }
 .cta_title
 {
-	font-size: 48px;
+	font-size: 18px;
 	color: #FFFFFF;
-	font-weight: 400;
+	margin-top: 10px;
 }
 .cta_button
 {
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 27px;
+	margin-top: 3px;
+	border: solid 1px #fff;
 }
 
 /*********************************
@@ -905,7 +907,7 @@ section
 .footer
 {
 	width: 100%;
-	background: #0c081d;	
+	background: #fff;
 }
 .footer_content
 {
@@ -945,12 +947,12 @@ section
 .footer_extra
 {
 	width: 100%;
-	background: #050210;
+	background: #fff;
 }
 .footer_extra_content
 {
 	width: 100%;
-	height: 134px;
+	height: 66px;
 }
 .footer_social_title
 {
@@ -1021,7 +1023,7 @@ section
 {
 	font-size: 12px;
 	font-weight: 500;
-	color: #bbbbbb;
+	color: #4C69B9;
 	margin-top: 7px;
 }
 
@@ -1056,11 +1058,6 @@ figure {
 	padding-right: 150px;
 	padding-top: 103px;
 	padding-bottom: 114px;
-}
-
-.program_block
-{
-	padding-bottom: 30px;
 }
 
 .program_block h1
