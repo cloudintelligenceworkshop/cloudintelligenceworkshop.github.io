@@ -25,9 +25,30 @@
 ***********/
 
 @font-face {
-	font-family: SegoeUI;
-	src: url("fonts/segoe-ui-webfont.woff") format("woff");
+	font-family: segoe-ui;
+	src: url("fonts/segoe-ui.woff") format("woff");
 }
+
+@font-face {
+	font-family: segoe-ui-bold;
+	src: url("fonts/segoe-ui-bold.woff") format("woff");
+}
+
+@font-face {
+	font-family: segoe-ui-semibold;
+	src: url("fonts/segoe-ui-semibold.woff") format("woff");
+}
+
+@font-face {
+	font-family: segoe-ui-light;
+	src: url("fonts/segoe-ui-light.woff") format("woff");
+}
+
+@font-face {
+	font-family: segoe-ui-semilight;
+	src: url("fonts/segoe-ui-semilight.woff") format("woff");
+}
+
 
 /*********************************
 2. Body and some general stuff
@@ -504,7 +525,7 @@ section
 .home_date
 {
 	font-size: 24px;
-	font-weight: 600;
+	font-family: segoe-ui-semibold, Tahoma, Geneva, Verdana, sans-serif;
 	color: #FFFFFF;
 	margin-top: 30px;
 	margin-bottom: 20px;
