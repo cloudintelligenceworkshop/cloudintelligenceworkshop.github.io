@@ -87,3 +87,10 @@
   font-size: 30px;
   font-weight: 500;
 }
+.menu_item_mobile select {
+	padding: 10px;
+	cursor: pointer;
+}
+.menu_item_mobile select option {
+	color: #000;
+}
