@@ -702,7 +702,7 @@ section
 }
 .main_nav ul
 {
-	height: 100%;
+	height: 45px;
 }
 .main_nav ul li
 {
@@ -729,8 +729,6 @@ section
 	font-size: 16px;
 	font-weight: 500;
 	color: #4c4c4c;
-	padding-left: 11px;
-	padding-right: 8px;
 	z-index: 1;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
@@ -742,7 +740,7 @@ section
 .main_nav ul li.active a
 {
 	font-weight: bold;
-	text-decoration: underline;
+	border-bottom: solid 2px #000;
 }
 .main_nav ul li select {
 	padding: 10px;
