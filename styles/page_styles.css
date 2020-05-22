@@ -594,14 +594,10 @@ section
 	-o-transition: all 200ms ease;
 	transition: all 200ms ease;
 }
-.logo_image div
-{
-	width: 59px;
-	height: 46px;
-}
 .logo_image div img
 {
-	max-width: 100%;
+	width: 50px;
+	margin-top: 8px;
 }
 .logo_content
 {
@@ -609,10 +605,12 @@ section
 }
 .logo_text
 {
+	font-family: segoe-ui-semibold,"Helvetica Neue",Helvetica,Arial,sans-serif;
 	color: #4867c0;
-	font-size: 34px;
+	font-size: 24px;
 	font-weight: 500;
 	text-align: left;
+	line-height: 34px;
 }
 .logo_text_not_ie
 {
@@ -692,7 +690,7 @@ section
 }
 .header_nav_content
 {
-	height: 82px;
+	height: 64px;
 }
 .main_nav
 {
@@ -722,7 +720,7 @@ section
 	display: block;
 	position: relative;
 	height: 100%;
-	line-height: 82px;
+	line-height: 64px;
 	font-size: 16px;
 	font-weight: 500;
 	color: #4c4c4c;
@@ -834,6 +832,9 @@ section
 	width: 100%;
 	background: #FFFFFF;
 }
+.speaker_container {
+	margin: 50px 0;
+}
 .speaker_image
 {
 	position: absolute;
@@ -844,15 +845,6 @@ section
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
-}
-.speaker_content
-{
-	width: 100%;
-	padding: 0;
-	padding-left: 130px;
-	padding-right: 150px;
-	padding-top: 103px;
-	padding-bottom: 114px;
 }
 .speaker_title
 {
@@ -867,18 +859,6 @@ section
 	color: #2b88cb;
 	margin-top: -3px;
 }
-.speaker_text
-{
-	margin-top: 0px;
-}
-
-.speaker_text h1,.speaker_text h2
-{
-	font-size: 28px;
-	font-weight: 500;
-}
-
-
 .speaker_button
 {
 	margin-top: 68px;
@@ -1031,7 +1011,7 @@ section
 }
 .copyright
 {
-	font-size: 12px;
+	font-size: 14px;
 	font-weight: 500;
 	color: #4C69B9;
 	margin-top: 7px;

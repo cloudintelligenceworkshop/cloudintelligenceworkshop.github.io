@@ -261,7 +261,7 @@ section
 .parallax_background
 {
 	position: absolute;
-	top: 200px;
+	top: 150px;
 	left: 0;
 	width: 100%;
 	height: 100%;
@@ -528,7 +528,7 @@ section
 	font-family: segoe-ui-semibold, Tahoma, Geneva, Verdana, sans-serif;
 	color: #FFFFFF;
 	margin-top: 30px;
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 }
 .home_title
 {
@@ -591,21 +591,17 @@ section
 }
 .header_top_content
 {
-	height: 127px;
+	height: 90px;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
 	-o-transition: all 200ms ease;
 	transition: all 200ms ease;
 }
-.logo_image div
-{
-	width: 59px;
-	height: 46px;
-}
 .logo_image div img
 {
-	max-width: 100%;
+	width: 50px;
+	margin-top: 8px;
 }
 .logo_content
 {
@@ -613,10 +609,12 @@ section
 }
 .logo_text
 {
+	font-family: segoe-ui-semibold,"Helvetica Neue",Helvetica,Arial,sans-serif;
 	color: #4867c0;
-	font-size: 34px;
+	font-size: 24px;
 	font-weight: 500;
 	text-align: left;
+	line-height: 34px;
 }
 .logo_text_not_ie
 {
@@ -696,7 +694,7 @@ section
 }
 .header_nav_content
 {
-	height: 82px;
+	height: 64px;
 }
 .main_nav
 {
@@ -727,7 +725,7 @@ section
 	display: block;
 	position: relative;
 	height: 100%;
-	line-height: 82px;
+	line-height: 64px;
 	font-size: 16px;
 	font-weight: 500;
 	color: #4c4c4c;

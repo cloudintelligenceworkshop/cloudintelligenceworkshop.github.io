@@ -75,6 +75,9 @@
   width: 100%;
   margin-left: 0px;
 }
+.logo_link {
+  line-height: 20px;
+}
 .logo_link_mobile a {
   color: #fff;
   text-decoration: underline;
