@@ -22,7 +22,10 @@
 1. Fonts
 ***********/
 
-@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,400i,500,600,700,800,900');
+@font-face {
+	font-family: SegoeUI;
+	src: url("fonts/segoe-ui-webfont.woff") format("woff");
+}
 
 /*********************************
 2. Body and some general stuff
@@ -38,7 +41,7 @@
 }
 body
 {
-	font-family: 'Raleway', sans-serif;
+	font-family: SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-size: 14px;
 	font-weight: 400;
 	background: #FFFFFF;
