@@ -1,0 +1,78 @@
+.img-h165--cover {
+  object-fit: cover;
+  height: 165px;
+}
+
+.img-round {
+  border-radius: 50%;
+}
+
+.reset_col {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* home button */
+.home_button {
+  margin-top: 68px;
+  border: 1px solid white;
+}
+.home_button a {
+  color: white;
+}
+.home_button a:hover {
+  color: #4867c0;
+  background: white;
+}
+.home_button::before {
+  background-color: transparent;
+  background-image: none;
+  background: none;
+}
+.program_content_collapsing {
+  padding-top: 10px;
+  padding-left: 50px;
+  padding-right: 50px;		
+  padding-bottom: 10px;
+}
+.program {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.program_block > h2
+{
+	font-size: 26px;
+	font-weight: 500;
+}
+
+.program_block > h3
+{
+	font-size: 22px;
+	font-weight: 500;
+	color: #4c4c4c;
+}
+
+.program_block > h5
+{
+	font-size: 16px;
+	font-weight: 500;
+}
+.author_image
+{
+  align-content: center;
+  float: left;
+  width:200px;
+  margin-right: 20px;
+}
+.author_image > img
+{
+  width: 200px;
+  margin-bottom: 10px;
+}
+.author_content
+{
+  margin-top: 20px;
+  display: inline-block;
+  width: 100%;
+  margin-left: 0px;
+}
