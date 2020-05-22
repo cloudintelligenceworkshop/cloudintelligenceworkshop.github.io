@@ -61,7 +61,7 @@
 }
 body
 {
-	font-family: SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family: segoe-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-size: 14px;
 	font-weight: 400;
 	background: #FFFFFF;
@@ -82,7 +82,7 @@ ul
 }
 p
 {
-	font-family: 'Raleway', sans-serif;
+	font-family: segoe-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-size: 14px;
 	font-weight: 400;
 	color: #000;
@@ -151,7 +151,7 @@ h4{font-size: 18px;}
 h5{font-size: 14px;}
 h1, h2, h3, h4, h5, h6
 {
-	font-family: 'Raleway', sans-serif;
+	font-family: segoe-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
 	text-shadow: rgba(0,0,0,.01) 0 0 1px;
