@@ -685,27 +685,6 @@ section
 	position: relative;
 	height: 100%;
 }
-.main_nav ul li::after
-{
-	display: block;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	content: '';
-	background-color: #4867c0;
-	background-image: linear-gradient(to right, #4867c0, #329fec);
-	background: #4867c0;
-	background: linear-gradient(to right, #4867c0, #329fec);
-	opacity: 0;
-	z-index: 0;
-	-webkit-transition: all 200ms ease;
-	-moz-transition: all 200ms ease;
-	-ms-transition: all 200ms ease;
-	-o-transition: all 200ms ease;
-	transition: all 200ms ease;
-}
 .main_nav ul li:not(:last-child)
 {
 	margin-right: 26px;
@@ -736,7 +715,15 @@ section
 .main_nav ul li a:hover,
 .main_nav ul li.active a
 {
-	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.main_nav ul li select {
+	padding: 10px;
+	cursor: pointer;
+}
+.main_nav ul li select option {
+	color: #000;
 }
 .search_container
 {
