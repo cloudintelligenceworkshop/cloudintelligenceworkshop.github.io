@@ -1,4 +1,4 @@
-document.write(`
+document.getElementById('footer').innerHTML=`
 
 <footer class="footer">
 	<div class="footer_extra">
@@ -25,4 +25,4 @@ document.write(`
 	</div>
 </footer>
 
-`);
+`;

@@ -1,4 +1,4 @@
-document.write(`
+document.getElementById('cta').innerHTML=`
 
 <div class="cta">
 	<div class="container">
@@ -13,4 +13,4 @@ document.write(`
 	</div>
 </div>
 
-`);
+`;
