@@ -15,7 +15,14 @@
   <link rel="stylesheet" type="text/css" href="styles/sponsor.css" />  
   <link rel="stylesheet" type="text/css" href="styles/main_styles.css" />    
   <link rel="stylesheet" type="text/css" href="styles/main_responsive.css" />
-  <link rel="stylesheet" type="text/css" href="styles/custom.css" />    
+  <link rel="stylesheet" type="text/css" href="styles/custom.css" />
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="styles/bootstrap4/popper.js"></script>
+  <script src="styles/bootstrap4/bootstrap.min.js"></script>
+  <script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+  <script src="plugins/easing/easing.js"></script>
+  <script src="plugins/parallax-js-master/parallax.min.js"></script>
+  <script src="js/custom.js"></script>
 </head>
 
 <body>
@@ -48,9 +55,12 @@
           <li class="menu_item_mobile"><a href="CFP.html">Call For Papers</a></li>
           <li class="menu_item_mobile"><a href="organizers.html">Organizers</a></li>
           <li class="menu_item_mobile"><a href="program.html">Schedule</a></li>
-          <!--
-          <li class="menu_item_mobile"><a href="keynote.html">Keynote</a></li>
-          -->
+          <li class="menu_item_mobile">
+            <select onchange='location = this.value;'>
+              <option value='#'>Current (2020)</option>
+              <option value='2019/index.html'>2019</option>
+            </select>
+          </li>
         </ul>
       </div>
     </div>
@@ -93,33 +103,10 @@
             </div>
           </div>
 
-          <div class="header_nav" id="header_nav_pin">
-            <div class="header_nav_inner">
-              <div class="header_nav_container">
-                <div class="container">
-                  <div class="row">
-                    <div class="col">
-                      <div class="header_nav_content d-flex flex-row align-items-center justify-content-start">
-                        <nav class="main_nav">
-                          <ul>
-                            <li class="active"><a href="index.html">Home</a></li>
-                            <li><a href="CFP.html">Call For Papers</a></li>
-                            <li><a href="organizers.html">Organizers</a></li>
-                            <li><a href="program.html">Schedule</a></li>
-                            <!-- 
-                            <li><a href="keynote.html">Keynote</a></li>
-                            -->
-                           
-                          </ul>
-                        </nav>
-
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          <!-- Navigation -->
+					<div id="nav"></div>
+          <script src="js/components/nav.js"></script>
+          
         </div>
       </header>
 
@@ -144,69 +131,16 @@
         </div>
       </div>
     </div>
-</div>
-	
-
-    <!-- Call to action -->
-    <div class="cta">
-      <div class="container">
-        <div class="row">
-          <div class="col">
-              <div class="cta_title" style="float:left;">Need to find us?</div>
-              <div class="button cta_button" style="float:right;">
-                <a href="mailto:cloudintelligenceworkshop@gmail.com">Contact</a>
-              </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Footer -->
-
-    <footer class="footer">
-      <div class="footer_extra">
-        <div class="container">
-          <div class="row">
-            <div class="col">
-              <div
-                class="footer_extra_content d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-lg-start justify-content-center">
-                <div class="footer_extra_right ml-lg-auto text-lg-right">
-                  <!--
-								<div class="footer_extra_links">
-									<ul>
-										<li><a href="contact.html">Contact us</a></li>
-										<li><a href="#">Sitemap</a></li>
-										<li><a href="#">Privacy</a></li>
-									</ul>
-								</div>
-								-->
-                  <div class="copyright">
-                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                    Copyright &copy;
-                    <script>
-                      document.write(new Date().getFullYear());
-                    </script>
-                    All rights reserved | This template is made with
-                    <i class="fa fa-heart-o" aria-hidden="true"></i> by
-                    <a href="https://colorlib.com" target="_blank">Colorlib</a>
-                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
   </div>
 
-  <script src="js/jquery-3.2.1.min.js"></script>
-  <script src="styles/bootstrap4/popper.js"></script>
-  <script src="styles/bootstrap4/bootstrap.min.js"></script>
-  <script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
-  <script src="plugins/easing/easing.js"></script>
-  <script src="plugins/parallax-js-master/parallax.min.js"></script>
-  <script src="js/custom.js"></script>
+	<!-- Call to action -->
+	<div id="cta"></div>
+	<script src="js/components/cta.js"></script>
+
+	<!-- Footer -->
+	<div id="footer"></div>
+	<script src="js/components/footer.js"></script>
+
 </body>
 
 </html>

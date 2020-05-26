@@ -24,31 +24,7 @@
 1. Fonts
 ***********/
 
-@font-face {
-	font-family: segoe-ui;
-	src: url("fonts/segoe-ui.woff") format("woff");
-}
-
-@font-face {
-	font-family: segoe-ui-bold;
-	src: url("fonts/segoe-ui-bold.woff") format("woff");
-}
-
-@font-face {
-	font-family: segoe-ui-semibold;
-	src: url("fonts/segoe-ui-semibold.woff") format("woff");
-}
-
-@font-face {
-	font-family: segoe-ui-light;
-	src: url("fonts/segoe-ui-light.woff") format("woff");
-}
-
-@font-face {
-	font-family: segoe-ui-semilight;
-	src: url("fonts/segoe-ui-semilight.woff") format("woff");
-}
-
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,400i,500,600,700,800,900');
 
 /*********************************
 2. Body and some general stuff
@@ -64,7 +40,7 @@
 }
 body
 {
-	font-family: segoe-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 14px;
 	font-weight: 400;
 	background: #FFFFFF;
@@ -85,7 +61,7 @@ ul
 }
 p
 {
-	font-family: segoe-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 14px;
 	line-height: 2;
 	font-weight: 400;
@@ -155,7 +131,7 @@ h4{font-size: 18px;}
 h5{font-size: 14px;}
 h1, h2, h3, h4, h5, h6
 {
-	font-family: segoe-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family: 'Raleway', sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
 	text-shadow: rgba(0,0,0,.01) 0 0 1px;
@@ -261,7 +237,7 @@ section
 .parallax_background
 {
 	position: absolute;
-	top: 150px;
+	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
@@ -278,8 +254,8 @@ section
 }
 .button
 {
-	width: 150px;
-	height: 40px;
+	width: 205px;
+	height: 52px;
 	text-align: center;
 	overflow: hidden;
 	margin-bottom: 5px;
@@ -307,7 +283,7 @@ section
 {
 	display: block;
 	position: relative;
-	line-height: 40px;
+	line-height: 52px;
 	font-size: 14px;
 	font-weight: 500;
 	color: #FFFFFF;
@@ -524,15 +500,13 @@ section
 }
 .home_date
 {
-	font-size: 24px;
-	font-family: segoe-ui-semibold, Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 18px;
+	font-weight: 700;
 	color: #FFFFFF;
-	margin-top: 30px;
-	margin-bottom: 40px;
 }
 .home_title
 {
-	font-size: 50px;
+	font-size: 60px;
 	font-weight: 500;
 	color: #FFFFFF;
 	margin-top: -5px;
@@ -540,9 +514,10 @@ section
 }
 .home_location
 {
-	font-size: 24px;
+	font-size: 36px;
 	font-weight: 500;
 	color: #FFFFFF;
+	margin-top: -13px;
 }
 .home_text
 {
@@ -591,17 +566,21 @@ section
 }
 .header_top_content
 {
-	height: 90px;
+	height: 127px;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
 	-o-transition: all 200ms ease;
 	transition: all 200ms ease;
 }
+.logo_image div
+{
+	width: 59px;
+	height: 46px;
+}
 .logo_image div img
 {
-	width: 50px;
-	margin-top: 8px;
+	max-width: 100%;
 }
 .logo_content
 {
@@ -609,12 +588,10 @@ section
 }
 .logo_text
 {
-	font-family: segoe-ui-semibold,"Helvetica Neue",Helvetica,Arial,sans-serif;
 	color: #4867c0;
-	font-size: 24px;
+	font-size: 34px;
 	font-weight: 500;
 	text-align: left;
-	line-height: 34px;
 }
 .logo_text_not_ie
 {
@@ -694,7 +671,7 @@ section
 }
 .header_nav_content
 {
-	height: 64px;
+	height: 82px;
 }
 .main_nav
 {
@@ -702,7 +679,7 @@ section
 }
 .main_nav ul
 {
-	height: 45px;
+	height: 100%;
 }
 .main_nav ul li
 {
@@ -710,7 +687,27 @@ section
 	position: relative;
 	height: 100%;
 }
-
+.main_nav ul li::after
+{
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	content: '';
+	background-color: #4867c0;
+	background-image: linear-gradient(to right, #4867c0, #329fec);
+	background: #4867c0;
+	background: linear-gradient(to right, #4867c0, #329fec);
+	opacity: 0;
+	z-index: 0;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
 .main_nav ul li:not(:last-child)
 {
 	margin-right: 26px;
@@ -725,10 +722,12 @@ section
 	display: block;
 	position: relative;
 	height: 100%;
-	line-height: 64px;
+	line-height: 82px;
 	font-size: 16px;
 	font-weight: 500;
 	color: #4c4c4c;
+	padding-left: 11px;
+	padding-right: 8px;
 	z-index: 1;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
@@ -739,15 +738,7 @@ section
 .main_nav ul li a:hover,
 .main_nav ul li.active a
 {
-	font-weight: bold;
-	border-bottom: solid 2px #000;
-}
-.main_nav ul li select {
-	padding: 10px;
-	cursor: pointer;
-}
-.main_nav ul li select option {
-	color: #000;
+	color: #FFFFFF;
 }
 .search_container
 {
@@ -823,11 +814,7 @@ section
 {
 	display: inline-block;
 	vertical-align: middle;
-}
-.hero_button
-{
-	display: inline-block;
-	vertical-align: middle;
+	margin-left: 26px;
 }
 
 /*********************************
@@ -1207,27 +1194,21 @@ section
 
 .cta
 {
-	position: absolute;
 	width: 100%;
-	left: 0;
-	bottom: -166px;
-	height: 66px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	background: linear-gradient(180deg, #476BC3 0%, #4081D5 44.79%, #339CEC 100%);
+	padding-top: 105px;
+	padding-bottom: 101px;
 }
 .cta_title
 {
-	font-size: 18px;
+	font-size: 48px;
 	color: #FFFFFF;
-	margin-top: 10px;
+	font-weight: 400;
 }
 .cta_button
 {
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 3px;
-	border: solid 1px #fff;
+	margin-top: 27px;
 }
 
 /*********************************
@@ -1237,10 +1218,7 @@ section
 .footer
 {
 	width: 100%;
-	background: #fff;	
-	position: absolute;
-	left: 0;
-  	bottom: -230px;
+	background: #0c081d;	
 }
 .footer_content
 {
@@ -1273,19 +1251,19 @@ section
 }
 .footer_links ul li a
 {
-	font-size: 14px;
+	font-size: 16px;
 	font-weight: 600;
 	color: #bbbbbb;
 }
 .footer_extra
 {
 	width: 100%;
-	background: #fff;
+	background: #050210;
 }
 .footer_extra_content
 {
 	width: 100%;
-	height: 66px;
+	height: 134px;
 }
 .footer_social_title
 {
@@ -1353,6 +1331,6 @@ section
 .copyright
 {
 	font-weight: 500;
-	color: #4C69B9;
+	color: #bbbbbb;
 	margin-top: 7px;
 }

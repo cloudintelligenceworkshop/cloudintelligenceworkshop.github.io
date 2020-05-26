@@ -186,4 +186,19 @@ $(document).ready(function()
 		menuActive = false;
 	}
 
+	//handle action and active state for desktop nav that is in js/nav.js
+	//initialize with home page as active if nothing set on page load
+	if(localStorage.activePage == null){
+		localStorage.setItem("activePage", "home");
+	}
+
+	//set style on page load
+	$('#'+localStorage.activePage).addClass('active');
+
+	//set which page should be active when navigating
+	$(".main_nav ul li").click(function(e) 
+	{ 
+		localStorage.setItem("activePage", $(this).attr('id'));
+	});
+
 });
