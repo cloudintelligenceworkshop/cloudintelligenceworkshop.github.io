@@ -16,8 +16,8 @@ document.getElementById('nav').innerHTML=`
                                     <li id="schedule"><a href="program.html">Schedule</a></li>
                                     <li>
                                         <select onchange='location = this.value;'>
-                                            <option value='#'>Current (2020)</option>
-                                            <option value='2019/index.html'>2019</option>
+                                            <option value='#'>2020</option>
+                                            <!--<option value='2019/index.html'>2019</option>-->
                                         </select>
                                     </li>
                                 </ul>
