@@ -675,11 +675,11 @@ section
 }
 .main_nav
 {
-	height: 100%;
+	height: 45px;
 }
 .main_nav ul
 {
-	height: 45px;
+	height: 26px;
 }
 .main_nav ul li
 {
@@ -700,8 +700,6 @@ section
 {
 	display: block;
 	position: relative;
-	height: 100%;
-	line-height: 64px;
 	font-size: 16px;
 	font-weight: 500;
 	color: #4c4c4c;
