@@ -419,6 +419,12 @@
 	.cta_title
 	{
 		font-size: 24px;
+		float: none;
+		text-align: center;
+	}
+	.cta_button {
+		float: none;
+		text-align: center;
 	}
 	.footer_social_list
 	{
