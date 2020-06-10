@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-	<title>Schedule</title>
+	<title>Program</title>
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="description" content="Conference project" />
@@ -54,18 +54,11 @@
                         </div>
                     </a>
                 </div>
-                <ul>
-                    <li class="menu_item_mobile"><a href="index.html">Home</a></li>
-                    <li class="menu_item_mobile"><a href="CFP.html">Call For Papers</a></li>
-                    <li class="menu_item_mobile"><a href="organizers.html">Organizers</a></li>
-                    <li class="menu_item_mobile"><a href="program.html">Schedule</a></li>
-                    <li class="menu_item_mobile">
-                        <select onchange='location = this.value;'>
-                            <option value='#'>2020</option>
-                            <!--<option value='2019/index.html'>2019</option>-->
-                        </select>
-                    </li>
-                </ul>
+
+                <!-- Navigation for Mobile -->
+                <div id="nav-mobile"></div>
+                <script src="js/components/nav-mobile.js"></script>
+
             </div>
         </div>
         <!-- Home -->
@@ -123,7 +116,7 @@
                     <div class="row">
                         <div class="col">
                             <div class="home_content d-flex flex-row align-items-end justify-content-start">
-                                <div class="current_page">Schedule</div>
+                                <div class="current_page">Program</div>
                             </div>
                         </div>
                     </div>

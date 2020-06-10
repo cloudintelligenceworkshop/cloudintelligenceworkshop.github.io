@@ -1206,7 +1206,7 @@ section
 	width: 100%;
 	left: 0;
 	bottom: -166px;
-	height: 66px;
+	min-height: 66px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	background: linear-gradient(180deg, #476BC3 0%, #4081D5 44.79%, #339CEC 100%);
@@ -1216,6 +1216,7 @@ section
 	font-size: 18px;
 	color: #FFFFFF;
 	margin-top: 10px;
+	float: left;
 }
 .cta_button
 {
@@ -1223,6 +1224,7 @@ section
 	margin-right: auto;
 	margin-top: 3px;
 	border: solid 1px #fff;
+	float: right;
 }
 
 /*********************************

@@ -143,6 +143,8 @@
 	.hamburger
 	{
 		display: block;
+		margin-left: auto!important;
+		padding-left: 10px;
 	}
 	.logo_image div
 	{
@@ -282,7 +284,7 @@
 	}
 	.logo_content
 	{
-		padding-left: 10px;
+		margin-left: 10px;
 	}
 	.logo_text
 	{
@@ -377,6 +379,13 @@
 	.cta_title
 	{
 		font-size: 24px;
+		float: none;
+		text-align: center;
+	}
+	.cta_button
+	{
+		float: none;
+		text-align: center;
 	}
 	.footer_social_list
 	{
