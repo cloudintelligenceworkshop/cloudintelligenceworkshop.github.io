@@ -36,7 +36,7 @@ document.getElementById('nav').innerHTML=`
                             <div class="header_extra ml-auto">
                                 <div class="button header_button">
                                     <a
-                                        href="http://aaaiconf.cvent.com/events/aaai-20/event-summary-92a1ebc42cc34d5696d19711ace8def6.aspx">Register</a>
+                                        href="https://conf.researchr.org/attending/icse-2021/registration">Register</a>
                                 </div>
                             </div>
                         </div>
