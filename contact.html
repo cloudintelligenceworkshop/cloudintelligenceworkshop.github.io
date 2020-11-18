@@ -23,6 +23,12 @@
   <script src="plugins/parallax-js-master/parallax.min.js"></script>
   <script src="js/speakers.js"></script>
   <script src="js/custom.js"></script> 
+  <script>
+	  function showThanks(){
+		document.getElementById('contact-form').style.display = "none";
+		document.getElementById('thanks').style.display = "block";
+	  }
+  </script>
 </head>
 
 <body>
@@ -132,23 +138,28 @@
 
 					<br />
 					<br />
-					<!-- this form uses formspark.io -->
-					<form action="https://submit-form.com/Ob6r0fGS" target="_blank">
-						
-						<input name="subject" type="hidden" id="Subject" value="Message from the Cloud Intelligence Workshop Form">
+					<div id="contact-form">
+						<!-- this form uses formspark.io -->
+						<form action="https://submit-form.com/Ob6r0fGS" target="_blank">
+							
+							<input name="subject" type="hidden" id="Subject" value="Message from the Cloud Intelligence Workshop Form">
 
-						<div class="form-group">
-							<label for="Message">Message</label>
-							<textarea name="message" class="form-control" id="Message" placeholder="Message"></textarea>
-						</div>
+							<div class="form-group">
+								<label for="Message">Message</label>
+								<textarea name="message" class="form-control" id="Message" placeholder="Message"></textarea>
+							</div>
 
-						<div class="form-group">
-							<label for="Email">Email</label>
-							<input name="email" type="email" class="form-control" id="Email" placeholder="Email">
-						</div>
+							<div class="form-group">
+								<label for="Email">Email</label>
+								<input name="email" type="email" class="form-control" id="Email" placeholder="Email">
+							</div>
 
-						<button type="submit" class="btn btn-default">Submit</button>
-					</form>
+							<button type="submit" class="btn btn-default" onclick="showThanks()">Submit</button>
+						</form>
+					</div>
+					<div id="thanks" style="display:none;">
+						Thank you!
+					</div>
 					<br />
 					<br />
 
