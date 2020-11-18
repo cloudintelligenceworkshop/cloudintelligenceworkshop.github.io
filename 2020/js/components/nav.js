@@ -19,13 +19,16 @@ document.getElementById('nav').innerHTML=`
                                             <div class="dropbtn">2020 
                                                 <i class="fa fa-angle-down"></i>
                                             </div>
-                                            <!--
+                                            
                                             <div class="dropdown-content">
+                                                <a href="../index.html">2021</a>    
+                                                <!--
                                                 <a href="2019/index.html">2019</a>
                                                 <a href="2018/index.html">2018</a>
                                                 <a href="2017/index.html">2017</a>
+                                                -->
                                             </div>
-                                            -->
+                                            
                                         </div> 
                                     </li>
                                 </ul>
