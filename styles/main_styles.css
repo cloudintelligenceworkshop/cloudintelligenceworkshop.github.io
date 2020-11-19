@@ -515,7 +515,7 @@ section
 {
 	position: absolute;
 	left: 0;
-	top: 42%;
+	top: 36%;
 	width: 100%;
 }
 .home_content
@@ -563,6 +563,9 @@ section
 .home_button:not(:last-child)
 {
 	margin-right: 10px;
+}
+.home_video{
+	width:100%;
 }
 
 /*********************************
@@ -1205,7 +1208,7 @@ section
 	position: absolute;
 	width: 100%;
 	left: 0;
-	bottom: -166px;
+	top: -10px;
 	min-height: 66px;
 	padding-top: 10px;
 	padding-bottom: 10px;

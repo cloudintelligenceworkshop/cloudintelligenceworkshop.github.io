@@ -1,0 +1,48 @@
+/* sponsor section on index */
+.sponsor {
+    width: 100%;
+    background-color: #ededed;
+  }
+  
+  .sponsor_content {
+    width: 100%;
+    padding-left: 130px;
+    padding-right: 150px;
+    padding-top: 103px;
+    padding-bottom: 114px;
+  }
+  
+  .sponsor_title {
+    font-size: 30px;
+    font-weight: 500;
+    color: #4c4c4c;
+  }
+  
+  .sponsor_text {
+    margin-top: 49px;
+  }
+  
+  .sponsor_button{
+    margin-top: 27px;
+    border: 1px solid #4867c0;
+  }
+  .sponsor_button a {
+    color: #4867c0;
+  }
+  .sponsor_button a:hover {
+    color: white;
+    background: #4867c0;
+  }
+  .sponsor_button::before {
+    background-color: transparent;
+    background-image: none;
+    background: none;
+  }
+  
+  /* sponsor logos */
+  .sponsor_image_microsoft {
+    height: 100px;
+  }
+  .sponsor_image_didi {
+    height: 230px;
+  }

@@ -27,7 +27,7 @@ $(document).ready(function()
 	var menuActive = false;
 	var header = $('.header');
 
-	setHeader();
+	//setHeader();
 
 	$(window).on('resize', function()
 	{
@@ -40,7 +40,7 @@ $(document).ready(function()
 	});
 
 	init_ie_check();
-	setHeader();
+	//setHeader();
 	initSearch();
 	initMenu();
 

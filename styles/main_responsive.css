@@ -207,7 +207,13 @@
 		padding-top: 60px;
 		padding-bottom: 76px;
 	}
-	
+	.home_content_container
+	{
+		top: 260px;
+	}
+	.home_video {
+		margin-top:150px;
+	}
 	.footer_col:not(:last-child)
 	{
 		margin-bottom: 60px;
@@ -286,9 +292,16 @@
 	{
 		margin-left: 51px;
 	}
+	.home_content_container
+	{
+		top: 200px;
+	}
+	.home_video {
+		margin-top:150px;
+	}
 	.cta_title
 	{
-		font-size: 36px;
+		font-size: 24px;
 	}
 }
 
@@ -369,7 +382,10 @@
 	}
 	.home_content_container
 	{
-		top: 35%;
+		top: 160px;
+	}
+	.home_video {
+		margin-top:150px;
 	}
 	.intro,
 	.calendar
@@ -415,7 +431,10 @@
 		font-size: 13px;
 		margin-top: 3px;
 	}
-	
+	.cta
+	{
+		top: 100px;
+	}
 	.cta_title
 	{
 		font-size: 24px;
@@ -425,6 +444,9 @@
 	.cta_button {
 		float: none;
 		text-align: center;
+	}
+	.footer{
+		margin-bottom: -100px;
 	}
 	.footer_social_list
 	{
