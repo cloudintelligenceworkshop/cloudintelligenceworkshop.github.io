@@ -387,6 +387,10 @@
 	.home_video {
 		margin-top:150px;
 	}
+	.home_date
+	{
+		font-size: 22px;
+	}
 	.intro,
 	.calendar
 	{
