@@ -2,7 +2,7 @@ document.getElementById('nav-mobile').innerHTML=`
 
 <ul>
     <li class="menu_item_mobile"><a href="index.html">Home</a></li>
-    <!--<li class="menu_item_mobile"><a href="CFP.html">Call For Papers</a></li>-->
+    <li class="menu_item_mobile"><a href="CFP.html">Call For Papers</a></li>
     <li class="menu_item_mobile"><a href="organizers.html">Organizers</a></li>
     <!--<li class="menu_item_mobile"><a href="program.html">Program</a></li>-->
     <li class="menu_item_mobile">
