@@ -826,6 +826,7 @@ section
 {
 	display: inline-block;
 	vertical-align: middle;
+	border:solid 1px #fff;
 }
 
 /*********************************
