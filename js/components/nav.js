@@ -12,6 +12,7 @@ document.getElementById('nav').innerHTML=`
                                 <ul>
                                     <li id="home"><a href="index.html">Home</a></li>
                                     <li id="cfp"><a href="CFP.html">Call For Papers</a></li>
+                                    <li id="papers"><a href="accepted-papers.html">Accepted Papers</a></li>
                                     <li id="organizers"><a href="organizers.html">Organizers</a></li>
                                     <!--<li id="program"><a href="program.html">Program</a></li>-->
                                     <li>
