@@ -1082,5 +1082,6 @@ figure {
 
 .program_block_content
 {
-	margin-top: 20px;
+	margin-top: 0px;
+	margin-bottom: 20px;
 }
