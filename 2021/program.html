@@ -1,0 +1,698 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Program</title>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="description" content="Conference project" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta property="og:image" content="http://cloudintelligenceworkshop.org/images/cloud-intelligence-workshop.jpg" />
+    <link rel="icon" type="image/logo.png" href="images/logo.png">
+	<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" />
+	<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css" />
+	<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css" />
+	<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css" />
+	<link rel="stylesheet" type="text/css" href="styles/page_styles.css" />
+	<link rel="stylesheet" type="text/css" href="styles/page_responsive.css" />
+    <link rel="stylesheet" type="text/css" href="styles/custom.css" />
+    <script src="js/jquery-3.2.1.min.js"></script>
+	<script src="styles/bootstrap4/popper.js"></script>
+	<script src="styles/bootstrap4/bootstrap.min.js"></script>
+	<script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+	<script src="plugins/easing/easing.js"></script>
+	<script src="plugins/parallax-js-master/parallax.min.js"></script>
+    <script src="js/speakers.js"></script>
+    <script src="js/custom.js"></script>
+</head>
+
+<body>
+
+    <div class="super_container">
+        <!-- Menu -->
+        <div class="menu trans_500">
+            <div class="menu_content d-flex flex-column align-items-center justify-content-center text-center">
+                <div class="menu_close_container">
+                    <div class="menu_close"></div>
+                </div>
+                
+                <!-- Banner for Mobile -->
+                <div id="banner-mobile"></div>
+				<script src="js/components/banner-mobile.js"></script>
+
+                <!-- Navigation for Mobile -->
+                <div id="nav-mobile"></div>
+                <script src="js/components/nav-mobile.js"></script>
+
+            </div>
+        </div>
+        <!-- Home -->
+        <div class="home">
+            <div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/index.jpg"
+                 data-speed="0.8"></div>
+            <!-- Header -->
+            <header class="header" id="header">
+                <div>
+
+                    <!-- Banner -->
+					<div id="banner"></div>
+					<script src="js/components/banner.js"></script>
+
+                    <!-- Navigation -->
+					<div id="nav"></div>
+                    <script src="js/components/nav.js"></script>
+                    
+                </div>
+            </header>
+
+            <div class="home_content_container">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="home_content d-flex flex-row align-items-end justify-content-start">
+                                <div class="current_page">Program</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="program">
+            <div class="container">
+                <!-- Title -->
+                <div class="row">
+                    <div class="col">
+                        <div class="program_content_collapsing">
+                            <div class="program_block">
+                                <h3>Cloud Intelligence Workshop Program </h3>
+                                Schedule: 11:00am - 7:30pm CET on May 29th, 2021
+                                <br />
+                                Location: Virtual
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Opening remarks -->
+                <div class="row">
+                    <div class="col">
+                        <div class="program_content_collapsing">
+                            <div class="program_block">
+                                <strong>11:00 - 11:05am</strong>
+                                <br />
+                                Opening Remarks
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Keynote -->
+                <div class="row">
+                    <div class="col">
+                        <div class="program_content_collapsing">
+                            <div class="program_block">
+                                <strong>11:00 - 11:35am</strong>
+                                <br />
+                                <a data-toggle="collapse" href="#keynote" role="button" aria-expanded="false" aria-controls="keynote">
+                                    Keynote: From Software Analytics to Cloud Intelligence - Reflection and Path Forward
+                                    <h5>Dongmei Zhang, Microsoft Research Asia</h5>
+                                </a>
+                            </div>
+                            <div class="program_block collapse" id="keynote">
+                                <div class="program_block_content">
+                                    <div class="author_content row">
+                                        <div class="author_image">
+                                            <img src="./images/dongmei_zhang.jpg"/>
+                                        </div>
+                                        <div class="author_about">
+                                            <p>
+                                                Dr. Dongmei Zhang is the Assistant Managing Director of Microsoft Research Asia (MSRA), leading the research of Data, Knowledge and Intelligence (DKI) which is an interdisciplinary area across data intelligence, knowledge computing, information visualization, and software engineering. Dr. Zhang founded the Software Analytics Group in MSRA in 2009. Since then she has been leading the group to research software analytics technologies. In addition to conducting state-of-the-art research, her group collaborates closely with multiple product teams in Microsoft, and has developed and deployed software analytics tools that have created high business impact. In recent years, Dr. Zhang and her teams have expanded the impact into the business intelligence area, and helped Microsoft establish technology leadership in the direction of Smart Data Discovery.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <br />
+                                    <p>
+                                        Talk Abstract
+                                        <br />
+                                        Software Analytics focuses on utilizing data-driven approaches to help improve the quality of software systems, the user experience of interacting with software systems, and the productivity of software development process. Software Analytics is an important research area in the software engineering community for more than a decade. It has already made broad impact in software industry. As the computing paradigm was shifting towards cloud computing, we started to focus our Software Analytics research on cloud computing and created the research topic Cloud Intelligence. Cloud Intelligence targets at utilizing AI/ML technologies to help design, build, and operate high-quality and high-efficiency cloud systems at scale. Due to the distributed nature, great complexity, and enormous scale of cloud systems, Cloud Intelligence presents unique challenges and opportunities to the Software Analytics research. In this talk, I will first introduce the research landscape of software analytics and Cloud Intelligence. Then using a couple of projects as examples, I will talk about our research on Cloud Intelligence and its impact, as well as the research challenges and opportunities in Cloud Intelligence moving forward.
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Invited Talk #1 -->
+                <div class="row">
+                    <div class="col">
+                        <div class="program_content_collapsing">
+                            <div class="program_block">
+                                <strong>11:35 - 11:55am</strong>
+                                <br />
+                                <a data-toggle="collapse" href="#invite-talk-1" role="button" aria-expanded="false" aria-controls="invite-talk-1">
+                                    Invited Talk #1: Towards Autonomous IT Operations through Artificial Intelligence
+                                    <h5>Dan Pei, Tsinghua University</h5>
+                                </a>
+                            </div>
+                            <div class="program_block collapse" id="invite-talk-1">
+                                <div class="program_block_content">
+                                    <div class="author_content row">
+                                        <div class="author_image" style="width:100px;">
+                                            <img src="./images/DanPei.jpg" style="width:100px;" />
+                                        </div>
+                                        <div class="author_about">
+                                            <p>
+                                                Dr. Dan Pei is a tenured Associate Professor in Computer Science Department at Tsinghua University in Beijing, China. Before joining Tsinghua, Dr. Pei was a Principal Researcher at AT&T Research in the U.S. He received his PhD degree (with honor) from UCLA in 2005, and his Bachelor's and Master's degrees from Tsinghua University in 1997 and 2000. His current research interests are in AIOps (Artificial Intelligence for Operations). He is an ACM Senior Member and an IEEE Senior Member.
+                                            </p>
+                                            <br />
+                                            <br />
+                                            <p>
+                                                Title: <span style="font-weight:bold;">Towards Autonomous IT Operations through Artificial Intelligence</span>
+                                                <br />
+                                                IT operations are important techniques for ensuring our increasingly digitalized world run reliably, efficiently and safely, yet current IT Operations are labor-intensive, very stressful, and ineffective. In this talk, I will first explain why AI is necessary for IT Operations. I will then present a suite of unsupervised anomaly detection algorithms for time series, log, and trace data, followed by the lessons learned. I will conclude my talk by envisioning that future IT Operations will become more and more autonomous, which will enable an even better digitalized world.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Technical paper session #1 -->
+                <div class="row">
+                    <div class="col">
+                        <div class="program_content_collapsing">
+                            <div class="program_block">
+                                <strong>11:55am - 12:55pm</strong>
+                                <br />
+                                    Technical paper session #1 (Detection and Diagnosis)
+                                <h5>4 papers *15 mins = 60 mins</h5>
+                                
+                                <strong>
+                                    Kmon: An In-kernel Transparent Monitoring System for Microservice Systems with eBPF
+                                </strong>
+                                <h5>
+                                    Tianjun Weng, Wanqi Yang, Guangba Yu, Pengfei Chen, Jieqi Cui, Chuanfu Zhang (Sun Yat-sen University)
+                                </h5>
+             
+                                <strong>
+                                    PerfEstimator: A Generic and Extensible Performance Estimator for Data Parallel DNN Training
+                                </strong>
+                                <h5>
+                                    Chengru Yang, Zhehao Li, Chaoyi Ruan, Guanbin Xu, Cheng Li (University of Science and Technology of China); Ruichuan Chen (Nokia Bell Labs); Feng Yan (University of Nevada)
+                                </h5>
+                                
+                                <strong>
+                                    TraceLingo: Trace representation and learning for performance issue diagnosis in cloud services
+                                </strong>
+                                <h5>
+                                    Yong Xu, Yaokang Zhu, Bo Qiao, Hongshu Che, Pu Zhao, Xu Zhang (Microsoft Research); Ze Li, Yingnong Dang (Microsoft Azure); Qingwei Lin (Microsoft Research)
+                                </h5>
+
+                                <strong>
+                                    MicroDiag: Fine-grained Performance Diagnosis for Microservice Systems
+                                </strong>
+                                <h5>
+                                    Li Wu (Elastisys AB; Technische Universität Berlin); Johan Tordsson (Elastisys AB; Umeå University); Jasmin Bogatinovski (Technische Universität Berlin); Erik Elmroth (Elastisys AB; Umeå University); Odej Kao (Technische Universität Berlin)
+                                </h5>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- technical papers archive -->
+                <!--
+                <div class="row">
+                    <div class="col">
+                        <div class="program_content_collapsing">
+                            <div class="program_block">
+                                <strong>11:00 - 12:00am</strong>
+                                <br />
+                                <a data-toggle="collapse" href="#techPapers" role="button" aria-expanded="false" aria-controls="techPapers">
+                                    Technical Papers
+                                </a>
+                            </div>
+                            <div class="program_block collapse" id="techPapers">
+                                <div class="program_block_content">
+                                    <h4>HotspotRank: Hotspot Detection in Large-Scale Microservice Architecture</h4>
+                                    <p>
+                                        Yi Zhen (LinkedIn Corporation)*; Yung-Yu Chung (LinkedIn); Yang Yang (LinkedIn Corporation); Lei Zhang (LinkedIn Corporation); Ruoying Wang (LinkedIn); Bo Long (LinkedIn Corporation); Tie Wang (LinkedIn Corporation); Pranay Kanwar (LinkedIn Corporation); Dong  Wang (LinkedIn Corporation); Mike Snow (LinkedIn Corporation); Sanket Patel (LinkedIn Corporation); Stephen Bisordi (LinkedIn Corporation); Viji Nair (LinkedIn Corporation)
+                                    </p>
+                                    <h4>Moving Metric Detection and Alerting System at eBay [<a target="_blank" href="content/MMD_AAAIPaper_Camera_Ready.pdf">PDF</a>]</h4>
+                                    <p>
+                                        Zezhong Zhang (eBay Inc)*; Keyu Nie (eBay Inc); Tao Yuan (eBay Inc)
+                                    </p>
+                                    <h4>CapPredictor: A Capacity Headroom Prediction Framework in Cloud [<a target="_blank" href="content/CapPredictor.pdf">PDF</a>]</h4>
+                                    <p>
+                                        Ruoying Wang (LinkedIn)*; Lei Zhang (LinkedIn Corporation); Yang Yang (LinkedIn Corporation); Yi Zhen (LinkedIn Corporation); Bo Long (LinkedIn Corporation); Tie Wang (LinkedIn Corporation); Vinoth Govindaraj (LinkedIn Corporation); Todd Palino (LinkedIn Corporation); Samir Tata (LinkedIn Corporation); Viji Nair (LinkedIn Corporation)
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                -->
+
+                <!-- break -->
+                <div class="row">
+                    <div class="col">
+                        <div class="program_content_collapsing">
+                            <div class="program_block">
+                                <strong>12:55 - 1:55pm</strong>
+                                <br />
+                                Break
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Invited Talk #2 -->
+                <div class="row">
+                    <div class="col">
+                        <div class="program_content_collapsing">
+                            <div class="program_block">
+                                <strong>1:55 - 2:15pm</strong>
+                                <br />
+                                <a data-toggle="collapse" href="#invite-talk-2" role="button" aria-expanded="false" aria-controls="invite-talk-2">
+                                    Invited Talk #2: Large-Scale Trace Analysis for Microservice Architecture Understanding and Fault Analysis
+                                    <h5>Xin Peng, Fudan University</h5>
+                                </a>
+                            </div>
+                            <div class="program_block collapse" id="invite-talk-2">
+                                <div class="program_block_content">
+                                    <div class="author_content row">
+                                        <div class="author_image" style="width:100px;">
+                                            <img src="./images/XinPeng.jpg" style="width:100px;" />
+                                        </div>
+                                        <div class="author_about">
+                                            <p>
+                                                Xin Peng received the bachelor’s and PhD degrees in computer science from Fudan University, in 2001 and 2006, respectively. He is a professor of the School of Computer Science, Fudan University, China. His research interests include data-driven intelligent software development, cloud-native software and AIOps, software engineering for AI and cyber-physical-social Systems. His work won the ICSM 2011 Best Paper Award, the ACM SIGSOFT Distinguished Paper Award at ASE 2018, the IEEE TCSE Distinguished Paper Awards at ICSME 2018/2019/2020, and the IEEE Transactions on Software Engineering 2018 Best Paper Award. He was a steering committee member of International Conference on Software Maintenance and Evolution (ICSME) during 2017-2020. Now he is a co-editor of Journal of Software: Evolution and Process (JSEP), an editorial board member of ACM Transactions on Software Engineering and Methodology (TOSEM), Empirical Software Engineering (EMSE), and Chinese Journal of Software.
+                                            </p>
+                                            <p>
+                                                Title: <span style="font-weight:bold;">Large-Scale Trace Analysis for Microservice Architecture Understanding and Fault Analysis</span>
+                                                <br />
+                                                Operation engineers and developers highly rely on trace analysis to understand architectures and diagnose various problems such as service failures and quality degradation. However, the huge number of traces produced at runtime makes it challenging to capture the required information in real-time. In this talk, I will present two recent works collaborating with industrial partners, GMTA and MicroHECL, on large-scale trace analysis for microservice architecture understanding and fault analysis. Built on a graph-based representation, GMTA abstracts traces into different paths and further groups them into business flows and supports various analytical applications based on an efficient storage and access mechanism. MicroHECL is a high-efficient root cause localization approach for availability issues of microservice systems. It analyzes possible anomaly propagation chains, and ranks candidate root causes based on correlation analysis. Both the two works have been applied in the production systems of our industrial partners.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Technical paper session #2 -->
+                <div class="row">
+                    <div class="col">
+                        <div class="program_content_collapsing">
+                            <div class="program_block">
+                                <strong>2:15 - 3:00pm</strong>
+                                <br />
+                                    Technical paper session #2 (Monitoring and prediction)
+                                <h5>3 papers *15 mins = 45 mins</h5>
+
+                                <strong>
+                                    Robust and Transferable Anomaly Detection in Log Data using Pre-Trained Language Models
+                                </strong>
+                                <h5>
+                                    Jasmin Bogatinovski, Harald Ott, Alexander Acker, Sasho Nedelkoski, Odej Kao (Technische Universität Berlin)
+                                </h5>
+
+                                <strong>
+                                    Rapid Trend Prediction for Large-Scale Cloud Database KPIs by Clustering
+                                </strong>
+                                <h5>
+                                    Xiaoling Wang, Ning Li, Lijun Zhang, Xiaofang Zhang (Northwestern Polytechnical University); Qiong Zhao (Bank of Communications)
+                                </h5>
+
+                                <strong>
+                                    Learning Dependencies in Distributed Cloud Applications to Identify and Localize Anomalies
+                                </strong>
+                                <h5>
+                                    Dominik Scheinert, Alexander Acker, Lauritz Thamsen, Morgan K. Geldenhuys, and Odej Kao (Technische Universität Berlin)
+                                </h5>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Panel #1 (Europe + Asia) -->
+                <div class="row">
+                    <div class="col">
+                        <div class="program_content_collapsing">
+                            <div class="program_block">
+                                <strong>3:00 - 4:00pm</strong>
+                                <br />
+                                Panel #1 (Europe + Asia): 
+                                <h5>How to accelerate collaboration on Cloud Intelligence across academia and industry?</h5>
+                                <h5>Organizer: <span style="font-weight:bold;">Xin Peng</span>, Fudan University</h5>
+
+                                <a data-toggle="collapse" href="#panel-1-4" role="button" aria-expanded="false" aria-controls="panel-1-4">
+                                    Ranjita Bhagwan, Microsoft Research India
+                                </a>
+                                <div class="program_block collapse" id="panel-1-4">
+                                    <div class="program_block_content">
+                                        <div class="author_content row">
+                                            <div class="author_image" style="width:150px;">
+                                                <img src="./images/RanjitaBhagwan.jpg" style="width:150px;" />
+                                            </div>
+                                            <div class="author_about">
+                                                <p>
+                                                    Dr. Ranjita Bhagwan is Senior Principal Researcher at Microsoft Research India. Her research predominantly focuses on problems related to networked and distributed systems. Ranjita has worked for more than a decade on applying machine learning to improve system reliability, security and performance. She is the recipient of the 2020 <a href="https://india.acm.org/awards/outstanding-contributions-in-computing-by-a-woman-award" target="_blank">ACM India Outstanding Contributions to Computing by a Woman Award</a>. She has also chaired multiple top conferences in the field of systems and networking. Ranjita received her PhD and MS in Computer Engineering from University of California, San Diego and a BTech in Computer Science and Engineering from the Indian Institute of Technology, Kharagpur.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <br />
+
+                                <a data-toggle="collapse" href="#panel-1-3" role="button" aria-expanded="false" aria-controls="panel-1-3">
+                                    Odej Kao, Technische Universität Berlin
+                                </a>
+                                <div class="program_block collapse" id="panel-1-3">
+                                    <div class="program_block_content">
+                                        <div class="author_content row">
+                                            <div class="author_image" style="width:100px;">
+                                                <img src="./images/OdejKao.jpg" style="width:100px;" />
+                                            </div>
+                                            <div class="author_about">
+                                                <p>
+                                                    Odej Kao is full professor at Technische Universität Berlin, head of the research group on distributed and operating systems, chairman of the Einstein Center Digital Future, and chairman of the national research network board. Dr. Kao is a graduate from the TU Clausthal. His research interests include AIOps, big data / streaming analytics, cloud computing, and fault tolerance. He has published over 350 papers in peer-reviewed proceedings and journals.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <br />
+
+                                <a data-toggle="collapse" href="#panel-1-2" role="button" aria-expanded="false" aria-controls="panel-1-1">
+                                    Shan Lu, University of Chicago
+                                </a>
+                                <div class="program_block collapse" id="panel-1-2">
+                                    <div class="program_block_content">
+                                        <div class="author_content row">
+                                            <div class="author_image" style="width:100px;">
+                                                <img src="./images/ShanLu.png" style="width:100px;" />
+                                            </div>
+                                            <div class="author_about">
+                                                <p>
+                                                    Shan Lu is a Professor in the Department of Computer Science at the University of Chicago. Her research focuses on software reliability and efficiency. Shan is an ACM Distinguished Member (2019 class) and an Alfred P. Sloan Research Fellow (2014). Shan has served as the Chair of ACM-SIGOPS (2019 --), and the technical program co-chair for ASPLOS'22, OSDI'20, and USENIX ATC'15. Her co-authored papers won Best Paper Awards at SOSP'19, OSDI'16 and FAST'13, SIGSOFT Distinguished Paper Awards at ICSE'19, ICSE'15, FSE'14, an SIGPLAN Research Highlight Award at PLDI'11, an IEEE Micro Top Picks in ASPLOS'06, a CHI Honorable Mention Award 2021, and a Google Scholar Classic Paper 2017.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <br />
+
+                                <a data-toggle="collapse" href="#panel-1-1" role="button" aria-expanded="false" aria-controls="panel-1-1">
+                                    Dan Pei, Tsinghua University
+                                </a>
+                                <div class="program_block collapse" id="panel-1-1">
+                                    <div class="program_block_content">
+                                        <div class="author_content row">
+                                            <div class="author_image" style="width:100px;">
+                                                <img src="./images/DanPei.jpg" style="width:100px;" />
+                                            </div>
+                                            <div class="author_about">
+                                                <p>
+                                                    Dr. Dan Pei is a tenured Associate Professor in Computer Science Department at Tsinghua University in Beijing, China. Before joining Tsinghua,  Dr. Pei was a Principal Researcher at AT&T Research in U.S.  He received his PhD degree (with honor) from UCLA in 2005, and his Bachelor's and Master's degrees from Tsinghua University in 1997 and 2000. His current research interests are in AIOps (Artificial Intelligence for Operations). He is an ACM Senior Member and an IEEE Senior Member.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <br />
+
+                                <a data-toggle="collapse" href="#panel-1-5" role="button" aria-expanded="false" aria-controls="panel-1-5">
+                                    Hongyu Zhang, University of Newcastle
+                                </a>
+                                <div class="program_block collapse" id="panel-1-5">
+                                    <div class="program_block_content">
+                                        <div class="author_content row">
+                                            <div class="author_image" style="width:150px;">
+                                                <img src="./images/HongyuZhang.jpg" style="width:150px;" />
+                                            </div>
+                                            <div class="author_about">
+                                                <p>
+                                                    Hongyu Zhang is interested in software analytics, intelligent software engineering, AIOps, software maintenance, and software quality. The main theme of his research is to improve software quality and developer productivity by mining software data. He has published more than 160 research papers in leading international journals and conferences. He received four ACM Distinguished Paper awards and three best paper awards. He has also served as a program committee member/track chair for many international conferences. He is a Distinguished Member of ACM, and a Fellow of Engineers Australia (FIEAust). More information about him can be found at: <a href="https://sites.google.com/site/hongyujohn" target="_blank">https://sites.google.com/site/hongyujohn</a>.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- break -->
+                <div class="row">
+                    <div class="col">
+                        <div class="program_content_collapsing">
+                            <div class="program_block">
+                                <strong>4:00 - 4:30pm</strong>
+                                <br />
+                                Break
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project showcase session -->
+                <div class="row">
+                    <div class="col">
+                        <div class="program_content_collapsing">
+                            <div class="program_block">
+                                <strong>4:30 - 5:20pm</strong>
+                                <br />
+                                Project showcase session
+                                <h5>4 papers *12 mins = 48 minutes</h5>
+
+                            <strong>Building a Secured Data Intelligence Platform</strong>
+                            <h5>Conan Yang (Salesforce)</h5>
+
+                            <strong>
+                                Infusing ML into VM Provisioning in Cloud
+                            </strong>
+                            <h5>
+                                Randolph Yao (Microsoft Azure); Chuan Luo, Bo Qiao, Qingwei Lin (Microsoft Research); Tri M Tran, Gil Shafriri, Yingnong Dang, Raphael Ghelman, Pulak Goyal, Eli Cortez, Daud Howlader, Sushant Rewaskar, Murali Chintalapati (Microsoft Azure); Dongmei Zhang (Microsoft Research)
+                            </h5>
+
+                            <strong>
+                                F3: Fault Forecasting Framework for Cloud Systems
+                            </strong>
+                            <h5>
+                                Pu Zhao, Chuan Luo, Bo Qiao (Microsoft Research); Youjiang Wu, Yingnong Dang, Murali Chintalapati (Microsoft Azure); Susy Yi, Paul Wang, Andrew Zhou, Saravanakumar Rajmohan (Microsoft 365); Qingwei Lin, Dongmei Zhang (Microsoft Research)
+                            </h5>
+
+                            <strong>
+                                SEAT: statistically sound infra-side deployment and integration testing
+                            </strong>
+                            <h5>
+                                Nutcha Temiyasathit, Tao Yang, Karan Luthra, Nick Ruff, Petar Zuljevic, Ethan Benowitz, Boris Baracaldo, Oytun Eskiyeneturk, Xin Fu (Facebook)
+                            </h5>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Invited Talk #3 -->
+                <div class="row">
+                    <div class="col">
+                        <div class="program_content_collapsing">
+                            <div class="program_block">
+                                <strong>5:20 - 5:40pm</strong>
+                                <br />
+                                <a data-toggle="collapse" href="#invite-talk-3" role="button" aria-expanded="false" aria-controls="invite-talk-3">
+                                    Invited Talk #3: Leveraging ML to Handle the Increasing Complexity of the Cloud
+                                    <h5>Christina Delimitrou, Cornell University</h5>
+                                </a>
+                            </div>
+                            <div class="program_block collapse" id="invite-talk-3">
+                                <div class="program_block_content">
+                                    <div class="author_content row">
+                                        <div class="author_image" style="width:100px;">
+                                            <img src="./images/ChristinaDelimitrou.jpg" style="width:100px;" />
+                                        </div>
+                                        <div class="author_about">
+                                            <p>
+                                                Christina Delimitrou is an Assistant Professor and the John and Norma Balen Sesquicentennial Faculty Fellow at Cornell University, where she works on computer architecture and computer systems. She specifically focuses on improving the performance predictability and resource efficiency of large-scale cloud infrastructures by revisiting the way these systems are designed and managed. Christina is the recipient of the 2020 TCCA Young Computer Architect Award, an Intel Rising Star Award, a Microsoft Research Faculty Fellowship, an NSF CAREER Award, a Sloan Research Scholarship, two Google Research Awards, and a Facebook Faculty Research Award. Her work has also received 4 IEEE Micro Top Picks awards and several best paper awards. Before joining Cornell, Christina received her PhD from Stanford University. She had previously earned an MS also from Stanford, and a diploma in Electrical and Computer Engineering from the National Technical University of Athens. More information can be found at: <a href="http://www.csl.cornell.edu/~delimitrou/" target="_blank">http://www.csl.cornell.edu/~delimitrou/</a>
+                                            </p>
+                                            <p>
+                                                Title: <span style="font-weight:bold;">Leveraging ML to Handle the Increasing Complexity of the Cloud</span>
+                                                <br />
+                                                Cloud services are increasingly adopting new programming models, such as microservices and serverless compute. While these frameworks offer several advantages, such as better modularity, ease of maintenance and deployment, they also introduce new hardware and software challenges.  
+                                            </p>
+                                            <p>
+                                                In this talk, I will briefly discuss the challenges that these new cloud models introduce in hardware and software, and present some of our work on employing ML to improve the cloud’s performance predictability and resource efficiency. I will first discuss Seer, a performance debugging system that identifies root causes of unpredictable performance in multi-tier interactive microservices, and Sage, which improves on Seer by taking a completely unsupervised learning approach to data-driven performance debugging, making it both practical and scalable. 
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Invited Talk #4 -->
+                <div class="row">
+                    <div class="col">
+                        <div class="program_content_collapsing">
+                            <div class="program_block">
+                                <strong>5:40 - 6:00pm</strong>
+                                <br />
+                                <a data-toggle="collapse" href="#invite-talk-4" role="button" aria-expanded="false" aria-controls="invite-talk-4">
+                                    Invited Talk #4: AIOps: Automating and Optimizing IT Operations Management with AI
+                                    <h5>Rama Akkiraju, IBM</h5>
+                                </a>
+                            </div>
+                            <div class="program_block collapse" id="invite-talk-4">
+                                <div class="program_block_content">
+                                    <div class="author_content row">
+                                        <div class="author_image" style="width:100px;">
+                                            <img src="./images/RamaAkkiraju.jpg" style="width:100px;" />
+                                        </div>
+                                        <div class="author_about">
+                                            <p>
+                                                Rama Akkiraju is an IBM Fellow, Master Inventor, and IBM Academy Member at IBM’s Automation Division where she is the CTO of AI Operations. AI Operations is about optimizing information technology (IT) operations management using Artificial Intelligence (AI). Prior to this role, Rama led the AI mission of enabling natural, personalized, and compassionate conversations between computers and humans where she and her team developed and delivered several differentiating AI Services such as Personality Insights, Tone Analyzer, Emotion Analysis, and Sentiment Analysis services to the IBM Watson platform. Before this, Rama led various projects and Research teams at IBM Watson Research Center and IBM Almaden Research Center in the areas of AI, analytics, business process optimization and delivered innovative analytical assets to IBM’s Global Business Services (GBS), and Global Technology Services (GTS) organizations. Rama has been named by Forbes as one of the ‘Top 20 Women in AI Research’ in May 2017, has been featured in ‘A-Team in AI’ by Fortune magazine in July 2018, and named ‘Top 10 pioneering women in AI and Machine Learning’ by Enterprise Management 360 in April 2019. Rama is also the recipient of the University of California, Berkeley’s Athena award for Technical and Executive Leadership for 2020.
+                                            </p>
+                                            <p>
+                                                In her career, Rama has worked on agent-based decision support systems, business process management, electronic market places, and semantic Web services, for which she led a World-Wide-Web (W3C) standard. Rama has co-authored 4 book chapters and over 100 technical papers. Rama has 30+ issued patents and 25+ pending. She is the recipient of 4 best paper awards in AI and Operations Research. Rama served as the President for ISSIP, a Service Science professional society for 2018, and continues to actively drive AI projects through this professional society. Rama holds a Master’s degree in Computer Science and has received a gold medal from New York University for her MBA for the highest academic excellence.
+                                            </p>
+                                            <p>
+                                                Talk Abstract
+                                                <br />
+                                                The vision of self-aware, self-healing and self-managing Information Technology (IT) systems has remained elusive till recently. Recent advancements in Cloud computing, Natural Language Processing (NLP), Machine Learning (ML), and Artificial Intelligence (AI) in general, are all making it possible to realize this vision now. AI can optimize IT operations management processes by increasing application availability, predicting and detecting problems early, reducing the time it takes to resolve problems, proactively avoiding problems, and optimizing the resources and cost of running business applications on hybrid Clouds. In this talk, I will discuss the opportunity for AI to optimize IT Operations Management. I will describe how semi-structured application and infrastructure logs can be analyzed to predict anomalies early, how entities can be extracted and linked from logs, alerts and events to reduce alert noise for IT operations admins, how NLP can be put to use on unstructured content in prior incident tickets to extract next-best-action recommendations to resolve problems, and how deployment change request descriptions can be analyzed in combination with past incident root cause information to predict risks of deployment changes to prevent issues from happening in the first place. 
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- break -->
+                <div class="row">
+                    <div class="col">
+                        <div class="program_content_collapsing">
+                            <div class="program_block">
+                                <strong>6:00 - 6:30pm</strong>
+                                <br />
+                                Break
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Panel #2 (Europe + North America) -->
+                <div class="row">
+                    <div class="col">
+                        <div class="program_content_collapsing">
+                            <div class="program_block">
+                                <strong>6:30 - 7:30pm</strong>
+                                <br />
+                                Panel #2 (Europe + North America): 
+                                <h5>Cloud Intelligence Across Academia and Industry</h5>
+                                <h5>Organizer: <span style="font-weight:bold;">Siddhartha Sen</span>, Microsoft Research New York</h5>
+
+                                <h5>Panelists:</h5>
+
+                                <a data-toggle="collapse" href="#panel-2-6" role="button" aria-expanded="false" aria-controls="panel-2-6">
+                                    Rama Akkiraju, IBM
+                                </a>
+                                <div class="program_block collapse" id="panel-2-6">
+                                    <div class="program_block_content">
+                                        <div class="author_content row">
+                                            <div class="author_image" style="width:100px;">
+                                                <img src="./images/RamaAkkiraju.jpg" style="width:100px;" />
+                                            </div>
+                                            <div class="author_about">
+                                                <p>
+                                                    Rama Akkiraju is an IBM Fellow, Master Inventor, and IBM Academy Member at IBM’s Automation Division where she is the CTO of AI Operations. AI Operations is about optimizing information technology (IT) operations management using Artificial Intelligence (AI). Prior to this role, Rama led the AI mission of enabling natural, personalized, and compassionate conversations between computers and humans where she and her team developed and delivered several differentiating AI Services such as Personality Insights, Tone Analyzer, Emotion Analysis, and Sentiment Analysis services to the IBM Watson platform. Before this, Rama led various projects and Research teams at IBM Watson Research Center and IBM Almaden Research Center in the areas of AI, analytics, business process optimization and delivered innovative analytical assets to IBM’s Global Business Services (GBS), and Global Technology Services (GTS) organizations. Rama has been named by Forbes as one of the ‘Top 20 Women in AI Research’ in May 2017, has been featured in ‘A-Team in AI’ by Fortune magazine in July 2018, and named ‘Top 10 pioneering women in AI and Machine Learning’ by Enterprise Management 360 in April 2019. Rama is also the recipient of the University of California, Berkeley’s Athena award for Technical and Executive Leadership for 2020.
+                                                </p>
+                                                <p>
+                                                    In her career, Rama has worked on agent-based decision support systems, business process management, electronic market places, and semantic Web services, for which she led a World-Wide-Web (W3C) standard. Rama has co-authored 4 book chapters and over 100 technical papers. Rama has 30+ issued patents and 25+ pending. She is the recipient of 4 best paper awards in AI and Operations Research. Rama served as the President for ISSIP, a Service Science professional society for 2018, and continues to actively drive AI projects through this professional society. Rama holds a Master’s degree in Computer Science and has received a gold medal from New York University for her MBA for the highest academic excellence.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <br />
+
+                                <a data-toggle="collapse" href="#panel-2-5" role="button" aria-expanded="false" aria-controls="panel-2-5">
+                                    Christina Delimitrou, Cornell University
+                                </a>
+                                <div class="program_block collapse" id="panel-2-5">
+                                    <div class="program_block_content">
+                                        <div class="author_content row">
+                                            <div class="author_image" style="width:100px;">
+                                                <img src="./images/ChristinaDelimitrou.jpg" style="width:100px;" />
+                                            </div>
+                                            <div class="author_about">
+                                                <p>
+                                                    Christina Delimitrou is an Assistant Professor and the John and Norma Balen Sesquicentennial Faculty Fellow at Cornell University, where she works on computer architecture and computer systems. She specifically focuses on improving the performance predictability and resource efficiency of large-scale cloud infrastructures by revisiting the way these systems are designed and managed. Christina is the recipient of the 2020 TCCA Young Computer Architect Award, an Intel Rising Star Award, a Microsoft Research Faculty Fellowship, an NSF CAREER Award, a Sloan Research Scholarship, two Google Research Awards, and a Facebook Faculty Research Award. Her work has also received 4 IEEE Micro Top Picks awards and several best paper awards. Before joining Cornell, Christina received her PhD from Stanford University. She had previously earned an MS also from Stanford, and a diploma in Electrical and Computer Engineering from the National Technical University of Athens. More information can be found at: <a href="http://www.csl.cornell.edu/~delimitrou/" target="_blank">http://www.csl.cornell.edu/~delimitrou/</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> 
+                                <br />
+
+                                <a data-toggle="collapse" href="#panel-2-1" role="button" aria-expanded="false" aria-controls="panel-2-1">
+                                    Jim Kleewein, Microsoft
+                                </a>
+                                <div class="program_block collapse" id="panel-2-1">
+                                    <div class="program_block_content">
+                                        <div class="author_content row">
+                                            <div class="author_image" style="width:100px;">
+                                                <img src="./images/JimKleewein.png" style="width:100px;" />
+                                            </div>
+                                            <div class="author_about">
+                                                <p>
+                                                    In his more than 15 years at Microsoft, Kleewein has worked on Office servers and services. While he began working on the lower layers of Exchange Server stack such as indexing, data storage, high availability, disaster recovery, and other bits of deep plumbing, as Office moved to the cloud so did he. He helped establish the architecture and implementation of O365 as both a hosted service and a self-hosted piece of enterprise software, started new technology initiatives such as the project that eventual became the Microsoft Graph and the advanced machine learning efforts that enable user action prediction like focused inbox, and regularly carried the ‘incident manager’ pager helping pragmatically assure the service was running correctly. Kleewein is listed as inventor of dozens of patents in the area of electronic communications, databases, data analytics, and hyper-scale cloud services. He is currently director of development for the core O365 hosted services, leading the worldwide team responsible for delivering Office productivity services to hundreds of millions of people every hour of every day. 
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <br />
+
+                                Martin Maas, Google
+                                <br />
+
+                                <a data-toggle="collapse" href="#panel-2-7" role="button" aria-expanded="false" aria-controls="panel-2-7">
+                                    Neeraja Yadwadkar, Stanford University
+                                </a>
+                                <div class="program_block collapse" id="panel-2-7">
+                                    <div class="program_block_content">
+                                        <div class="author_content row">
+                                            <div class="author_image" style="width:100px;">
+                                                <img src="./images/NeerajaYadwadkar.jpg" style="width:100px;" />
+                                            </div>
+                                            <div class="author_about">
+                                                <p>
+                                                    Neeraja Yadwadkar is a post-doctoral research fellow in the Computer Science Department at Stanford University, working with Christos Kozyrakis. She is a Cloud Computing Systems researcher, with a strong background in Machine Learning (ML). Neeraja's research focuses on using and developing ML techniques for systems, and building systems for ML. Neeraja graduated with a PhD in Computer Science from the RISE Lab at University of California, Berkeley, where she was advised by Randy Katz and Joseph Gonzalez. Before starting her PhD, she received her masters in Computer Science from the Indian Institute of Science, Bangalore, India, and her bachelors from the Government College of Engineering, Pune, India.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <br />
+    
+                                <br />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+	<!-- Call to action -->
+	<div id="cta"></div>
+	<script src="js/components/cta.js"></script>
+
+	<!-- Footer -->
+	<div id="footer"></div>
+	<script src="js/components/footer.js"></script>
+
+</body>
+
+</html>
