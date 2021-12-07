@@ -25,3 +25,7 @@ The styles for the homepage are in the files with the "main_" prefix and then th
 The hero is currently a video with an image default.
 If the new hero is just an image, then link to a non-existant video would be the easiest way, code-wise, to show an image instead.
 There is room for improvement here.
+<br />
+---------------------------------
+<br />
+The underscored html files are the original file from the colorlib template
