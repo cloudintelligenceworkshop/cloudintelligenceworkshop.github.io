@@ -11,7 +11,7 @@ document.getElementById('nav-mobile').innerHTML=`
                 <i class="fa fa-angle-down"></i>
             </div>
             <div class="dropdown-content">
-                <a href="../index.html">2021</a>
+                <a href="../2021/index.html">2021</a>
             </div>
         </div> 
     </li>
