@@ -11,7 +11,7 @@ document.getElementById('banner-mobile').innerHTML=`
                     The MLSys'22 Workshop on Cloud Intelligence / AIOps
                     </div>
                     <div class="logo_link_mobile">
-                    <a href="https://conf.researchr.org/home/icse-2021" target="_new">In conjunction with the 5th Conference on Machine Learning and Systems</a>
+                    <a href="https://mlsys.org" target="_new">In conjunction with the 5th Conference on Machine Learning and Systems</a>
                     </div>
                     <div class="logo_sub">
                     April 14th, 2022  Santa Clara Convention Center
