@@ -40,7 +40,7 @@ document.getElementById('nav').innerHTML=`
                             <div class="header_extra ml-auto">
                                 <div class="button header_button">
                                     <a
-                                        href="https://conf.researchr.org/attending/icse-2021/registration">Register</a>
+                                        href="https://mlsys.org/Register/view-registration">Register</a>
                                 </div>
                             </div>
                         </div>
