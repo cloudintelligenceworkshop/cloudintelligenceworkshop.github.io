@@ -8,13 +8,13 @@ document.getElementById('banner-mobile').innerHTML=`
             </div>
             <div class="logo_content">
                 <div class="logo_text logo_text_not_ie">
-                    ICSE21 Workshop on Cloud Intelligence
+                    The MLSys'22 Workshop on Cloud Intelligence / AIOps
                     </div>
                     <div class="logo_link_mobile">
-                    <a href="https://conf.researchr.org/home/icse-2021" target="_new">In conjunction with the 43rd International Conference on Software Engineering</a>
+                    <a href="https://mlsys.org" target="_new">In conjunction with the 5th Conference on Machine Learning and Systems</a>
                     </div>
                     <div class="logo_sub">
-                    May 29th, 2021  Virtual (Originally Madrid, Spain)
+                    April 14th, 2022  Santa Clara Convention Center
                 </div>
             </div>
         </div>
