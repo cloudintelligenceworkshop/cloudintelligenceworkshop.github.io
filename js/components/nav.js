@@ -10,7 +10,7 @@ document.getElementById('nav').innerHTML=`
                         <div class="header_nav_content d-flex flex-row align-items-center justify-content-start">
                             <nav class="main_nav">
                                 <ul>
-                                    <li id="home"><a href="index.html">Home</a></li>
+                                    <li id="home"><a href="index.html" aria-label="home">Home</a></li>
                                     <li id="cfp"><a href="CFP.html">Call For Papers</a></li>
                                     <!--
                                     <li id="papers"><a href="accepted-papers.html">Accepted Papers</a></li>
@@ -25,12 +25,12 @@ document.getElementById('nav').innerHTML=`
                                                 <i class="fa fa-angle-down"></i>
                                             </div>
                                             <div class="dropdown-content">
-                                                <a href="2021/index.html">2021</a>
-                                                <a href="2020/index.html">2020</a>
+                                                <a href="2021/index.html" aria-label="2021">2021</a>
+                                                <a href="2020/index.html" aria-label="2020">2020</a>
                                                 <!--
-                                                <a href="2019/index.html">2019</a>
-                                                <a href="2018/index.html">2018</a>
-                                                <a href="2017/index.html">2017</a>
+                                                <a href="2019/index.html" aria-label="2019">2019</a>
+                                                <a href="2018/index.html" aria-label="2018">2018</a>
+                                                <a href="2017/index.html" aria-label="2017">2017</a>
                                                 -->
                                             </div>
                                         </div> 

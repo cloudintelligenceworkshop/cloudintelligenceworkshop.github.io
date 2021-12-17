@@ -7,7 +7,7 @@ document.getElementById('banner').innerHTML=`
                 <div
                     class="header_top_content d-flex flex-row align-items-center justify-content-start">
                     <div>
-                        <a href="index.html">
+                        <a href="index.html" aria-label="home">
                             <div
                                 class="logo_container d-flex flex-row align-items-start justify-content-start">
                                 <div class="logo_image">
