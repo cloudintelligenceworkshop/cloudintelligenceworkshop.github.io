@@ -389,7 +389,7 @@
 	}
 	.home_date
 	{
-		font-size: 22px;
+		font-size: 18px;
 	}
 	.intro,
 	.calendar
@@ -437,7 +437,7 @@
 	}
 	.cta
 	{
-		top: 100px;
+		top: -10px;
 	}
 	.cta_title
 	{
