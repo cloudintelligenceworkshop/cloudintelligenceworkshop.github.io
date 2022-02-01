@@ -21,7 +21,7 @@ document.getElementById('banner').innerHTML=`
                                         <a href="https://mlsys.org" target="_new">In conjunction with the 5th Conference on Machine Learning and Systems</a>
                                         </div>
                                         <div class="logo_sub">
-                                        April 14th, 2022  Santa Clara Convention Center
+                                        August 29th through September 1st, 2022  Santa Clara Convention Center
                                         </div>
                                 </div>
                             </div>
