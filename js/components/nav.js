@@ -42,7 +42,7 @@ document.getElementById('nav').innerHTML=`
                             <div class="header_extra ml-auto">
                                 <div class="button header_button">
                                     <a
-                                        href="https://cmt3.research.microsoft.com/CIWS2022/Submission/Index">Submit</a>
+                                        href="https://mlsys.org/Register2">Register</a>
                                 </div>
                             </div>
                         </div>
