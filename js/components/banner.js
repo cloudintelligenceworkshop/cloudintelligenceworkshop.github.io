@@ -15,13 +15,13 @@ document.getElementById('banner').innerHTML=`
                                 </div>
                                 <div class="logo_content">
                                     <div id="logo_text" class="logo_text logo_text_not_ie">
-                                        The MLSys'22 Workshop on Cloud Intelligence / AIOps
+                                        The ICSE'23 Workshop on Cloud Intelligence / AIOps
                                         </div>
                                         <div class="logo_link">
-                                        <a href="https://mlsys.org" target="_new">In conjunction with the 5th Conference on Machine Learning and Systems</a>
+                                        <a href="https://conf.researchr.org/home/icse-2023" target="_new">In conjunction with the 45th International Conference on Software Engineering</a>
                                         </div>
                                         <div class="logo_sub">
-                                        August 29th through September 1st, 2022  Santa Clara Convention Center
+                                        May 14th to 20th, 2023 Melbourne Convention and Exhibition Center
                                         </div>
                                 </div>
                             </div>
