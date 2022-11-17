@@ -4,17 +4,17 @@ document.getElementById('banner-mobile').innerHTML=`
     <a href="index.html">
         <div class="logo_container d-flex flex-row align-items-start justify-content-start">
             <div class="logo_image">
-                <div><img src="images/logo.png" alt="" /></div>
+                <div><img src="../images/logo.png" alt="" /></div>
             </div>
             <div class="logo_content">
                 <div class="logo_text logo_text_not_ie">
-                    The ICSE'23 Workshop on Cloud Intelligence / AIOps
+                    The MLSys'22 Workshop on Cloud Intelligence / AIOps
                     </div>
                     <div class="logo_link_mobile">
-                    <a href="https://conf.researchr.org/home/icse-2023" target="_new">In conjunction with the 45th International Conference on Software Engineering</a>
+                    <a href="https://mlsys.org" target="_new">In conjunction with the 5th Conference on Machine Learning and Systems</a>
                     </div>
                     <div class="logo_sub">
-                    May 14th to 20th, 2023 Melbourne Convention and Exhibition Center
+                    Augist 29th through September 1st, 2022  Santa Clara Convention Center
                 </div>
             </div>
         </div>
