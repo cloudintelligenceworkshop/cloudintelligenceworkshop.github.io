@@ -5,7 +5,9 @@ document.getElementById('nav-mobile').innerHTML=`
     <li class="menu_item_mobile"><a href="CFP.html">Call for Papers</a></li>
     <!--
     <li class="menu_item_mobile"><a href="accepted-papers.html">Accepted Papers</a></li>
+    -->
     <li class="menu_item_mobile"><a href="organizers.html">Organizers</a></li>
+    <!--
     <li class="menu_item_mobile"><a href="program.html">Program</a></li>
     -->
     <li class="menu_item_mobile">
