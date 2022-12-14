@@ -21,7 +21,7 @@ document.getElementById('banner').innerHTML=`
                                         <a href="https://conf.researchr.org/home/icse-2023" target="_new">In conjunction with the 45th International Conference on Software Engineering</a>
                                         </div>
                                         <div class="logo_sub">
-                                        May 14th to 20th, 2023 Melbourne Convention and Exhibition Center
+                                        May 15th, 2023 Melbourne Convention and Exhibition Center
                                         </div>
                                 </div>
                             </div>
