@@ -39,14 +39,12 @@ document.getElementById('nav').innerHTML=`
                                 </ul>
                                 
                             </nav>
-<!--
                             <div class="header_extra ml-auto">
                                 <div class="button header_button">
                                     <a
-                                        href="https://mlsys.org/Register2">Register</a>
+                                        href="https://easychair.org/conferences/?conf=cloudintelligenceaio0">Submit</a>
                                 </div>
                             </div>
-<!--
                         </div>
                     </div>
                 </div>
