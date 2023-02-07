@@ -42,7 +42,7 @@ document.getElementById('nav').innerHTML=`
                             <div class="header_extra ml-auto">
                                 <div class="button header_button">
                                     <a
-                                        href="https://easychair.org/conferences/?conf=cloudintelligenceaio0">Submit</a>
+                                        href="https://icmsaust.eventsair.com/icse-2023/registration-form/Site/Register">Register</a>
                                 </div>
                             </div>
                         </div>
