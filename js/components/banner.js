@@ -18,10 +18,10 @@ document.getElementById('banner').innerHTML=`
                                         The ICSE'23 Workshop on Cloud Intelligence / AIOps
                                         </div>
                                         <div class="logo_link">
-                                        <a href="https://conf.researchr.org/home/icse-2023" target="_new">In conjunction with the 45th International Conference on Software Engineering</a>
+                                        <a href="https://www.asplos-conference.org/asplos2024/" target="_new">In conjunction with the ACM International Conference on Architectural Support for Programming Languages and Operating Systems</a>
                                         </div>
                                         <div class="logo_sub">
-                                        May 15th, 2023 Melbourne Convention and Exhibition Center
+                                        April 27th - May 1st, 2024 San Diego
                                         </div>
                                 </div>
                             </div>

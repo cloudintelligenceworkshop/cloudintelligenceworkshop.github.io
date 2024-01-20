@@ -38,10 +38,12 @@ document.getElementById('nav').innerHTML=`
                                 
                             </nav>
                             <div class="header_extra ml-auto">
+                            <!--
                                 <div class="button header_button">
                                     <a
                                         href="https://icmsaust.eventsair.com/icse-2023/registration-form/Site/Register">Register</a>
                                 </div>
+                            -->
                             </div>
                         </div>
                     </div>
