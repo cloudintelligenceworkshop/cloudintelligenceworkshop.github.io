@@ -14,9 +14,9 @@ document.getElementById('nav-mobile').innerHTML=`
                 <i class="fa fa-angle-down"></i>
             </div>
             <div class="dropdown-content">
-                <a href="2022/index.html" aria-label="2022">2022</a>
-                <a href="2021/index.html" aria-label="2021">2021</a>
-                <a href="2020/index.html" aria-label="2020">2020</a>
+                <a href="../2022/index.html" aria-label="2022">2022</a>
+                <a href="../2021/index.html" aria-label="2021">2021</a>
+                <a href="../2020/index.html" aria-label="2020">2020</a>
                 <!--
                 <a href="2019/index.html" aria-label="2019">2019</a>
                 <a href="2018/index.html" aria-label="2018">2018</a>

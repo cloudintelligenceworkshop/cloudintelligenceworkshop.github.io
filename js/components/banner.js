@@ -15,7 +15,7 @@ document.getElementById('banner').innerHTML=`
                                 </div>
                                 <div class="logo_content">
                                     <div id="logo_text" class="logo_text logo_text_not_ie">
-                                        The ICSE'23 Workshop on Cloud Intelligence / AIOps
+                                        The ASPLOS'24 Workshop on Cloud Intelligence / AIOps
                                         </div>
                                         <div class="logo_link">
                                         <a href="https://www.asplos-conference.org/asplos2024/" target="_new">In conjunction with the ACM International Conference on Architectural Support for Programming Languages and Operating Systems</a>
