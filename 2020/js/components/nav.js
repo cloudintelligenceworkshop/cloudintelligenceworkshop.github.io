@@ -21,7 +21,10 @@ document.getElementById('nav').innerHTML=`
                                             </div>
                                             
                                             <div class="dropdown-content">
-                                                <a href="../2021/index.html">2021</a>    
+                                                <a href="../index.html">2024</a>
+                                                <a href="../2023/index.html">2023</a>
+                                                <a href="../2022/index.html">2022</a>
+                                                <a href="../2021/index.html">2021</a>
                                                 <!--
                                                 <a href="2019/index.html">2019</a>
                                                 <a href="2018/index.html">2018</a>
