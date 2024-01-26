@@ -11,7 +11,7 @@ document.getElementById('banner').innerHTML=`
                             <div
                                 class="logo_container d-flex flex-row align-items-start justify-content-start">
                                 <div class="logo_image">
-                                    <div><img src="images/logo.png" alt="" /></div>
+                                    <div><img src="../images/logo.png" alt="" /></div>
                                 </div>
                                 <div class="logo_content">
                                     <div id="logo_text" class="logo_text logo_text_not_ie">
