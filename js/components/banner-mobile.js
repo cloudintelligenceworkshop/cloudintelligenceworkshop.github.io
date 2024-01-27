@@ -14,7 +14,7 @@ document.getElementById('banner-mobile').innerHTML=`
                     <a href="https://www.asplos-conference.org/asplos2024/" target="_new">In conjunction with the ACM International Conference on Architectural Support for Programming Languages and Operating Systems</a>
                     </div>
                     <div class="logo_sub">
-                    April 27th - May 1st, 2024 San Diego
+                    April 27th, 2024 San Diego
                 </div>
             </div>
         </div>
