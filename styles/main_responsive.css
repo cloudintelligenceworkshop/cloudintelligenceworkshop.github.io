@@ -102,6 +102,10 @@
 	{
 		font-size: 28px;
 	}
+	.logo_link a
+	{
+		font-size: 12px;
+	}
 }
 
 /************
@@ -160,6 +164,14 @@
 	.logo_text
 	{
 		font-size: 18px;
+	}
+	.logo_link a
+	{
+		font-size: 12px;
+	}
+	.logo_link_mobile a
+	{
+		font-size: 12px;
 	}
 	.header_top_content
 	{
