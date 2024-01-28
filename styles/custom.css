@@ -85,8 +85,14 @@
 }
 .logo_link {
   line-height: 20px;
+  font-size: 18px;
 }
+.logo_link a
+	{
+		font-size: 18px;
+	}
 .logo_link_mobile a {
+  font-size: 12px;
   color: #fff;
   text-decoration: underline;
 }
