@@ -6,7 +6,7 @@ document.getElementById('cta').innerHTML=`
 		<div class="col">
 			<div class="cta_title">Need to find us?</div>
 			<div class="button cta_button">
-				<a href="contact.html">Contact</a>
+				<a href="mailto:cloudintelligenceworkshop2024@gmail.com">Contact</a>
 			</div>
 		</div>
 		</div>
