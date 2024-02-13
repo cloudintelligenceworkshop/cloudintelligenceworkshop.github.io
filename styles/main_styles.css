@@ -546,11 +546,13 @@ section
 }
 .home_text
 {
-	font-size: 14px;
+	font-size: 20px;
 	font-weight: 500;
 	color: #FFFFFF;
-	line-height: 2.14;
-	margin-top: 4px;
+	background-color: rgba(0, 0, 0, 0.75);
+	box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.75);
+	line-height: 1.5;
+	padding: 10px;
 }
 .home_buttons
 {
