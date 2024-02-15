@@ -41,12 +41,12 @@ document.getElementById('nav').innerHTML=`
                                 
                             </nav>
                             <div class="header_extra ml-auto">
-                            <!--
+                            
                                 <div class="button header_button">
                                     <a
-                                        href="https://icmsaust.eventsair.com/icse-2023/registration-form/Site/Register">Register</a>
+                                        href="mailto:cloudintelligenceworkshop2024@gmail.com">Submit</a>
                                 </div>
-                            -->
+                            
                             </div>
                         </div>
                     </div>
