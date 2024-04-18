@@ -14,9 +14,7 @@ document.getElementById('nav').innerHTML=`
                                     <li id="cfp"><a href="CFP.html">Call for Papers</a></li>
                                     <li id="papers"><a href="accepted-papers.html">Accepted Papers</a></li>
                                     <li id="organizers"><a href="organizers.html">Organizers</a></li>
-                                    <!--
                                     <li id="program"><a href="program.html">Program</a></li>
-                                    -->
                                     <li>
                                         <div class="dropdown">
                                             <div class="dropbtn">2024 
