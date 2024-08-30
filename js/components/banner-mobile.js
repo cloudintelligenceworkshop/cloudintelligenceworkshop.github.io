@@ -8,13 +8,13 @@ document.getElementById('banner-mobile').innerHTML=`
             </div>
             <div class="logo_content">
                 <div class="logo_text logo_text_not_ie">
-                5th International Workshop on Cloud Intelligence / AIOps (AIOps '24) 
+                6th International Workshop on Cloud Intelligence / AIOps (AIOps '25) 
                     </div>
                     <div class="logo_link_mobile">
-                    <a href="https://www.asplos-conference.org/asplos2024/" target="_new">Co-located with ASPLOS '24</a>
+                    <a href="https://conf.researchr.org/home/icse-2025" target="_new">Co-located with ICSE '25</a>
                     </div>
                     <div class="logo_sub">
-                    April 27th, 2024 San Diego
+                    April 27th - May 3rd, 2025 Ottawa
                 </div>
             </div>
         </div>
