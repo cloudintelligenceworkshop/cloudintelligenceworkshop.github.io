@@ -22,14 +22,14 @@ document.getElementById('nav').innerHTML=`
                                             </div>
                                             <div class="dropdown-content">
                                                 <a href="../index.html" aria-label="2025">2025</a>      
-                                                <a href="2023/index.html" aria-label="2023">2023</a>    
-                                                <a href="2022/index.html" aria-label="2022">2022</a>
-                                                <a href="2021/index.html" aria-label="2021">2021</a>
-                                                <a href="2020/index.html" aria-label="2020">2020</a>
+                                                <a href="../2023/index.html" aria-label="2023">2023</a>    
+                                                <a href="../2022/index.html" aria-label="2022">2022</a>
+                                                <a href="../2021/index.html" aria-label="2021">2021</a>
+                                                <a href="../2020/index.html" aria-label="2020">2020</a>
                                                 <!--
-                                                <a href="2019/index.html" aria-label="2019">2019</a>
-                                                <a href="2018/index.html" aria-label="2018">2018</a>
-                                                <a href="2017/index.html" aria-label="2017">2017</a>
+                                                <a href="../2019/index.html" aria-label="2019">2019</a>
+                                                <a href="../2018/index.html" aria-label="2018">2018</a>
+                                                <a href="../2017/index.html" aria-label="2017">2017</a>
                                                 -->
                                             </div>
                                         </div> 
