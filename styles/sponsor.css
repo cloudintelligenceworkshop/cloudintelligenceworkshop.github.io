@@ -41,8 +41,8 @@
   
   /* sponsor logos */
   .sponsor_image_microsoft {
-    height: 100px;
+    max-height: 100px;
   }
   .sponsor_image_didi {
-    height: 230px;
+    max-height: 100px;
   }

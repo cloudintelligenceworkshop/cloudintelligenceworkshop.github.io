@@ -326,7 +326,7 @@
 	}
 	.header_top_content
 	{
-		height: 140px;
+		height: 100px;
 	}
 	.logo_image div
 	{
@@ -335,7 +335,7 @@
 	}
 	.logo_content
 	{
-		padding-left: 10px;
+		padding-left: 15px;
 	}
 	.logo_text
 	{
@@ -344,6 +344,11 @@
 	.logo_sub
 	{
 		font-size: 9px;
+	}
+	.hamburger
+	{
+		padding-left: 0px;
+		margin-left:0px !important;
 	}
 	.menu_close_container
 	{
