@@ -95,7 +95,18 @@
 
 								<h3>Automated Service Design with Cerulean</h3>
 								<h5>
-									Vaastav Anand, Alok Kumbhare, Celine Irvene, Chetan Bansal, Gagan Somashekar, Jonathan Mace, Pedro Las-Casas, and Rodrigo Fonseca
+									<a href="https://vaastavanand.com/" target="_blank">Vaastav Anand</a>, Alok Kumbhare, Celine Irvene, Chetan Bansal, Gagan Somashekar, Jonathan Mace, Pedro Las-Casas, and Rodrigo Fonseca
+								</h5>
+								<h5>
+									<b>Abstract:</b> Modern cloud applications are commonly developed as microservice
+									systems. Automating the design, operation, and optimization of these systems, has been
+									a longstanding yet an elusive goal due to lack of standardized tools and techniques for converting high-level user requirements into low-level system implementations.
+									With the recent rise of standardization tools such as Kubernetes, Blueprint, ServiceWeaver, and OpenTelemetry along with the emergence of LLMs, we believe this goal is now within reach.
+									
+									In this project showcase, we introduce Cerulean, a modular, extensible,
+									human-in-the-loop system that combines standardized tools with the
+									expressive power of LLMs to automatically generate implementations of
+									microservice systems.
 								</h5>
 
 								<br />
@@ -105,7 +116,14 @@
 
 								<h3>Towards Using LLMs for Distributed Trace Comparison</h3>
 								<h5>
-									Vaastav Anand, Pedro Las-Casas, Rodrigo Fonseca, and Antoine Kaufmann
+									<a href="https://vaastavanand.com/" target="_blank">Vaastav Anand</a>, Pedro Las-Casas, Rodrigo Fonseca, and <a href="https://people.mpi-sws.org/~antoinek/" target="_blank">Antoine Kaufmann</a>
+								</h5>
+								<h5>
+									<b>Abstract:</b> Troubleshooting issues in modern cloud systems is a time-consuming and tedious task.
+									Distributed Tracing captures relevant information such as the graphical structure as well as the temporal execution information to make it easier for operators to investigate and triage issues.
+									To investigate incidents, operators often need to compare the structural and temporal properties of a trace representing an error execution with a reference trace representing a successful execution. Pair-wise comparison of traces is challenging as the traces are large and multi-dimensional.
+									
+									In this abstract, we propose a novel way of comparing distributed traces by leveraging the generative powers of LLMs. We present an initial design of our system, Parallax, which uses two different types of LLM agents - Summarizer and Comparer. Summarizer generates independent summaries of the two traces and feeds them as input into the Comparer which highlights the differences between the two summarized executions.
 								</h5>
 
 								<br />
@@ -115,6 +133,9 @@
 								<h5>
 									Jingjia Peng, Yiming Qiu, Patrick Tser Jern Kon, Pinhan Zhao, Yibo Huang, Zheng Guo, Xinyu Wang, and Ang Chen
 								</h5>
+								<h5>
+									<b>Abstract:</b> Infrastructure-as-code (IaC) is reshaping how cloud resources are managed. IaC users write high-level programs to define their desired infrastructure, and the underlying IaC platforms automatically deploy the constituent resources into the cloud. While proven powerful at creating greenfield deployments (i.e., new cloud deployments from scratch), existing IaC platforms provide limited support for managing brownfield infrastructure (i.e., transplanting an existing non-IaC deployment to an IaC platform). This hampers the migration from legacy cloud management approaches to an IaC workflow and hinders wider IaC adoption. Managing brownfield deployments requires techniques to lift low-level cloud resource states and translate them into corresponding IaC programs — the reversal of the regular deployment process. Existing tools rely heavily on rule-based reverse engineering, which suffers from the lack of automation, limited resource coverage, and prevalence of errors. In this work, we lay out a vision for Lilac, a new approach that frees IaC lifting from extensive manual engineering. Lilac brings the best of both worlds: leveraging Large Language Models to automate lifting rule extraction, coupled with symbolic methods to control the cloud environment and provide correctness assurance. We envision that Lilac would enable the construction of an automated and provider-agnostic lifting tool with high coverage and accuracy.
+								</h5>
 
 								<br />
 								<br />
@@ -123,13 +144,19 @@
 								<h5>
 									Siyuan Jin, Zhendong Bei, Bichao Chen, and Yong Xia
 								</h5>
+								<h5>
+									<b>Abstract:</b> Traditional banks face significant challenges in digital transformation, primarily due to legacy system constraints and fragmented ownership. Recent incidents show that such fragmentation often results in superficial incident resolutions, leaving root causes unaddressed and causing recurring failures. We introduce a novel approach to post-incident analysis, integrating knowledge-based GenAI agents with the "Five Whys" technique to examine problem descriptions and change request data. This method uncovered that approximately 70% of the incidents previously attributed to management or vendor failures were due to underlying internal code issues. We present a case study to show the impact of our method. By scanning over 5,000 projects, we identified over 400 files with a similar root cause. Overall, we leverage the knowledge-based agents to automate and elevate root cause analysis, transforming it into a more proactive process. These agents can be applied across other phases of the software development lifecycle, further improving development processes.
+								</h5>
 
 								<br />
 								<br />
 
 								<h3>Automated Bug Discovery in Cloud Infrastructure-as-Code Updates with LLM Agents</h3>
 								<h5>
-									Yiming Xiang, Zhenning Yang, Jingjia Peng, Hermann Bauer, Patrick Tser Jern Kon, Yiming Qiu, and Ang Chen
+									Yiming Xiang, <a href="https://zyang37.github.io/" target="_blank">Zhenning Yang</a>, Jingjia Peng, Hermann Bauer, <a href="https://www.cs-pk.com/" target="_blank">Patrick Tser Jern Kon</a>, Yiming Qiu, and <a href="https://web.eecs.umich.edu/~chenang/" target="_blank">Ang Chen</a>
+								</h5>
+								<h5>
+									<b>Abstract:</b> Cloud environments are increasingly managed by Infrastructure-as-Code (IaC) platforms (e.g., Terraform), which allow developers to define their desired infrastructure as a configuration program that describes cloud resources and their dependencies. This shields developers from low-level operations for creating and maintaining resources, since they are automatically performed by IaC platforms when compiling and deploying the configuration. However, while IaC platforms are rigorously tested for initial deployments, they exhibit myriad errors for runtime updates, e.g., adding/removing resources and dependencies. IaC updates are common because cloud infrastructures are long-lived but user requirements fluctuate over time. Unfortunately, our experience shows that updates often introduce subtle yet impactful bugs. The update logic in IaC frameworks is hard to test due to the vast and evolving search space, which includes diverse infrastructure setups and a wide range of provided resources with new ones frequently added. We introduce TerraFault, an automated, efficient, LLM-guided system for discovering update bugs, and report our findings with an initial prototype. TerraFault incorporates various optimizations to navigate the large search space efficiently and employs techniques to accelerate the testing process. Our prototype has successfully identified bugs even in simple IaC updates, showing early promise in systematically identifying update bugs in today’s IaC frameworks to increase their reliability.
 								</h5>
 
 								<br />
@@ -137,7 +164,27 @@
 
 								<h3>Orchestrating Cross-Layer Anomaly Detection and Mitigation to Address Gray Failures in Large-Scale Cloud Infrastructure</h3>
 								<h5>
-									Ze Li, Chang Lou, Vignatha Yenugutala, Vivek Ramamurthy, Eion Blanchard, Minghua Ma and Murali Chintalapati
+									Ze Li, <a href="https://changlousys.github.io/" target="_blank">Chang Lou</a>, Vignatha Yenugutala, Vivek Ramamurthy, Eion Blanchard, Minghua Ma and Murali Chintalapati
+								</h5>
+								<h5>
+									<b>Abstract:</b> Cloud infrastructure in production constantly experiences gray failures:
+									a degraded state in which failures go undetected by system
+									mechanisms, yet adversely affect end-users. Addressing the underlying
+									anomalies on host nodes is crucial to address gray failures.
+									However, current approaches suffer from two key limitations: first,
+									existing detection relies solely on singular-dimension signals from
+									hosts, thus often suffering from biased views due to differential observability;
+									second, existing mitigation actions are often insufficient,
+									primarily consisting of host-level operations such as reboots, which
+									leave most production issues to manual intervention.
+									This paper presents PANACEA, a holistic framework to automatically
+									detect and mitigate host anomalies, addressing gray failures
+									in production cloud infrastructure. PANACEA expands beyond hostlevel
+									scope: it aggregates and correlates insights from VMs and
+									application layers to bridge the detection gap, and orchestrates finegrained
+									and safe mitigation across all levels. PANACEA is versatile,
+									designed to support a wide range of anomalies. It has been deployed
+									in production at millions of hosts.
 								</h5>
 
 								<br />
