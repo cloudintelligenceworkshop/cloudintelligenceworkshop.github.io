@@ -14,7 +14,7 @@ document.getElementById('banner-mobile').innerHTML=`
                     <a href="https://conf.researchr.org/home/icse-2025" target="_new">Co-located with ICSE '25</a>
                     </div>
                     <div class="logo_sub">
-                    April 27th - May 3rd, 2025 Ottawa
+                    May 3rd, 2025 Ottawa
                 </div>
             </div>
         </div>
