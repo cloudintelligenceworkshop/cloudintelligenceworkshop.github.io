@@ -218,7 +218,7 @@
 	}
 	.home_content_container
 	{
-		top: 160px;
+		top: 110px;
 	}
 	.home_video {
 		margin-top:150px;
@@ -276,7 +276,12 @@
 	}
 	.home_location
 	{
-		font-size: 24px;
+		font-size: 20px;
+		margin-top: -2px;
+	}
+	.home_date
+	{
+		font-size: 20px;
 		margin-top: -2px;
 	}
 	.home_buttons
@@ -303,7 +308,7 @@
 	}
 	.home_content_container
 	{
-		top: 150px;
+		top: 115px;
 	}
 	.home_video {
 		margin-top:150px;
@@ -311,6 +316,12 @@
 	.cta_title
 	{
 		font-size: 24px;
+	}
+	.sponsor_image_microsoft {
+		max-height: 50px;
+	}
+	.sponsor_image_didi {
+		max-height: 50px;
 	}
 }
 
@@ -396,7 +407,7 @@
 	}
 	.home_content_container
 	{
-		top: 160px;
+		top: 115px;
 	}
 	.home_video {
 		margin-top:150px;
