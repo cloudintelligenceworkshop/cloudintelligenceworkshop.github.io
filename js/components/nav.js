@@ -38,12 +38,10 @@ document.getElementById('nav').innerHTML=`
                                 
                             </nav>
                             <div class="header_extra ml-auto">
-                                <!--
                                 <div class="button header_button">
                                     <a
-                                        href="mailto:cloudintelligenceworkshop2024@gmail.com">Submit</a>
+                                        href="https://uottawacpd.eventsair.com/icse2025/reg/Site/Register" targget="_blank">Register</a>
                                 </div>
-                                -->
                             </div>
                         </div>
                     </div>
