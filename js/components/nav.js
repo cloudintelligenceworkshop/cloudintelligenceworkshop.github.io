@@ -37,12 +37,14 @@ document.getElementById('nav').innerHTML=`
                                 </ul>
                                 
                             </nav>
+                            <!--
                             <div class="header_extra ml-auto">
                                 <div class="button header_button">
                                     <a
                                         href="https://uottawacpd.eventsair.com/icse2025/reg/Site/Register" target="_blank">Register</a>
                                 </div>
                             </div>
+                            -->
                         </div>
                     </div>
                 </div>
