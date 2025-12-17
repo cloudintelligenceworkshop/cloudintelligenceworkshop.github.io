@@ -17,12 +17,12 @@ document.getElementById('nav').innerHTML=`
                                     <li id="program"><a href="program.html">Program</a></li>
                                     <li>
                                         <div class="dropdown">
-                                            <div class="dropbtn">2024 
+                                            <div class="dropbtn">2025 
                                                 <i class="fa fa-angle-down"></i>
                                             </div>
                                             <div class="dropdown-content">
                                                 <a href="../index.html" aria-label="2026">2026</a>
-                                                <a href="../2025/index.html" aria-label="2025">2025</a>      
+                                                <a href="../2024/index.html" aria-label="2024">2024</a>  
                                                 <a href="../2023/index.html" aria-label="2023">2023</a>    
                                                 <a href="../2022/index.html" aria-label="2022">2022</a>
                                                 <a href="../2021/index.html" aria-label="2021">2021</a>
@@ -38,14 +38,14 @@ document.getElementById('nav').innerHTML=`
                                 </ul>
                                 
                             </nav>
+                            <!--
                             <div class="header_extra ml-auto">
-                                <!--
                                 <div class="button header_button">
                                     <a
-                                        href="mailto:cloudintelligenceworkshop2024@gmail.com">Submit</a>
+                                        href="https://uottawacpd.eventsair.com/icse2025/reg/Site/Register" target="_blank">Register</a>
                                 </div>
-                                -->
                             </div>
+                            -->
                         </div>
                     </div>
                 </div>

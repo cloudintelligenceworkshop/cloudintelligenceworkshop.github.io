@@ -12,15 +12,18 @@ document.getElementById('nav').innerHTML=`
                                 <ul>
                                     <li id="home"><a href="index.html" aria-label="home">Home</a></li>
                                     <li id="cfp"><a href="CFP.html">Call for Papers</a></li>
+                                    <!-- Uncomment when ready:
                                     <li id="papers"><a href="accepted-papers.html">Accepted Papers</a></li>
                                     <li id="organizers"><a href="organizers.html">Organizers</a></li>
                                     <li id="program"><a href="program.html">Program</a></li>
+                                    -->
                                     <li>
                                         <div class="dropdown">
-                                            <div class="dropbtn">2025 
+                                            <div class="dropbtn">2026 
                                                 <i class="fa fa-angle-down"></i>
                                             </div>
                                             <div class="dropdown-content">
+                                                <a href="2025/index.html" aria-label="2025">2025</a>
                                                 <a href="2024/index.html" aria-label="2024">2024</a>  
                                                 <a href="2023/index.html" aria-label="2023">2023</a>    
                                                 <a href="2022/index.html" aria-label="2022">2022</a>

@@ -3,15 +3,18 @@ document.getElementById('nav-mobile').innerHTML=`
 <ul>
     <li class="menu_item_mobile"><a href="index.html" aria-label="home">Home</a></li>
     <li class="menu_item_mobile"><a href="CFP.html">Call for Papers</a></li>
+    <!-- Uncomment when ready:
     <li class="menu_item_mobile"><a href="accepted-papers.html">Accepted Papers</a></li>
     <li class="menu_item_mobile"><a href="organizers.html">Organizers</a></li>
     <li class="menu_item_mobile"><a href="program.html">Program</a></li>
+    -->
     <li class="menu_item_mobile">
         <div class="dropdown dropdown-mobile">
-            <div class="dropbtn">2025 
+            <div class="dropbtn">2026 
                 <i class="fa fa-angle-down"></i>
             </div>
             <div class="dropdown-content">
+                <a href="2025/index.html" aria-label="2025">2025</a>
                 <a href="2024/index.html" aria-label="2024">2024</a>    
                 <a href="2023/index.html" aria-label="2023">2023</a>
                 <a href="2022/index.html" aria-label="2022">2022</a>
