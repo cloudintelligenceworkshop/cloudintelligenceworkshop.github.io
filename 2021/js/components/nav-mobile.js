@@ -12,7 +12,8 @@ document.getElementById('nav-mobile').innerHTML=`
                 <i class="fa fa-angle-down"></i>
             </div>
             <div class="dropdown-content">
-                <a href="../index.html">2025</a>
+                <a href="../index.html">2026</a>
+                <a href="../2025/index.html">2025</a>
                 <a href="../2024/index.html">2024</a>
                 <a href="../2023/index.html">2023</a>
                 <a href="../2022/index.html">2022</a>

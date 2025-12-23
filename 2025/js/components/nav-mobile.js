@@ -2,26 +2,26 @@ document.getElementById('nav-mobile').innerHTML=`
 
 <ul>
     <li class="menu_item_mobile"><a href="index.html" aria-label="home">Home</a></li>
-    <li class="menu_item_mobile"><a href="CFP.html">Call For Papers</a></li>
+    <li class="menu_item_mobile"><a href="CFP.html">Call for Papers</a></li>
     <li class="menu_item_mobile"><a href="accepted-papers.html">Accepted Papers</a></li>
     <li class="menu_item_mobile"><a href="organizers.html">Organizers</a></li>
     <li class="menu_item_mobile"><a href="program.html">Program</a></li>
     <li class="menu_item_mobile">
         <div class="dropdown dropdown-mobile">
-            <div class="dropbtn">2022 
+            <div class="dropbtn">2025 
                 <i class="fa fa-angle-down"></i>
             </div>
             <div class="dropdown-content">
                 <a href="../index.html" aria-label="2026">2026</a>
-                <a href="../2025/index.html" aria-label="2025">2025</a>
-                <a href="../2024/index.html" aria-label="2024">2024</a>
+                <a href="../2024/index.html" aria-label="2024">2024</a>    
                 <a href="../2023/index.html" aria-label="2023">2023</a>
+                <a href="../2022/index.html" aria-label="2022">2022</a>
                 <a href="../2021/index.html" aria-label="2021">2021</a>
                 <a href="../2020/index.html" aria-label="2020">2020</a>
                 <!--
-                <a href="2019/index.html" aria-label="2019">2019</a>
-                <a href="2018/index.html" aria-label="2018">2018</a>
-                <a href="2017/index.html" aria-label="2017">2017</a>
+                <a href="../2019/index.html" aria-label="2019">2019</a>
+                <a href="../2018/index.html" aria-label="2018">2018</a>
+                <a href="../2017/index.html" aria-label="2017">2017</a>
                 -->
             </div>
         </div> 
