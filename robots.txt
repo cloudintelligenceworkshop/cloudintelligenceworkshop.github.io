@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://cloudintelligenceworkshop.org/sitemap.xml
