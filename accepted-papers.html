@@ -102,7 +102,7 @@
 
 								<h2>Technical Papers</h2>
 
-								<h3>Towards Automated Monitor Configuration for Cloud Services: A Data-Driven AIOps Framework Informed by Industrial Practice</h3>
+								<h3>Towards Automated Monitor Configuration for Cloud Services: A Data-Driven AIOps Framework Informed by Industrial Practice [<a href="#" onclick="openPdfViewer('papers/aiops26-Bastos.pdf');return false;">View</a>] [<a href="papers/aiops26-Bastos.pdf" target="_blank">PDF</a>]</h3>
 								<h5>
 									Authors: Anson Bastos, Anjaly Parayil (Microsoft); Ayush Choure (Independent); Chetan Bansal, Rujia Wang (Microsoft)
 								</h5>
@@ -110,7 +110,7 @@
 								<br />
 								<br />
 
-								<h3>CAPES: Causal Analysis of Power Effect under Score-based Scheduling</h3>
+								<h3>CAPES: Causal Analysis of Power Effect under Score-based Scheduling [<a href="#" onclick="openPdfViewer('papers/aiops26-Xing.pdf');return false;">View</a>] [<a href="papers/aiops26-Xing.pdf" target="_blank">PDF</a>]</h3>
 								<h5>
 									Authors: Jiali Xing, William Meng, Ziqi Meng (University of Pennsylvania); Liangcheng Yu (Microsoft Research); Vincent Liu, Benjamin Lee (University of Pennsylvania)
 								</h5>
@@ -118,7 +118,7 @@
 								<br />
 								<br />
 
-								<h3>ActionNex: A Virtual Outage Manager for Cloud Computing</h3>
+								<h3>ActionNex: A Virtual Outage Manager for Cloud Computing [<a href="#" onclick="openPdfViewer('papers/aiops26-Lin.pdf');return false;">View</a>] [<a href="papers/aiops26-Lin.pdf" target="_blank">PDF</a>]</h3>
 								<h5>
 									Authors: Zhenfeng Lin, Haoji Hu, Ming Hao (Microsoft); Xuchao Zhang (Microsoft Research); Ryan Zhang, Junhao Li, Oleg Kulygin, Ze Li, Sheila Jiang, Chetan Bansal, Hatay Tuna, Salman Zafar (Microsoft)
 								</h5>
@@ -126,7 +126,7 @@
 								<br />
 								<br />
 
-								<h3>Why Do AI Agents Systematically Fail at Cloud Root Cause Analysis?</h3>
+								<h3>Why Do AI Agents Systematically Fail at Cloud Root Cause Analysis? [<a href="#" onclick="openPdfViewer('papers/aiops26-Kim.pdf');return false;">View</a>] [<a href="papers/aiops26-Kim.pdf" target="_blank">PDF</a>]</h3>
 								<h5>
 									Authors: Taeyoon Kim, Woohyeok Park (Hanyang University); Hoyeong Yun (OKESTRO Co., Ltd.); Kyungyong Lee (Hanyang University)
 								</h5>
@@ -134,7 +134,7 @@
 								<br />
 								<br />
 
-								<h3>An Empirical Study of Automation Gaps in LLM Serving Systems</h3>
+								<h3>An Empirical Study of Automation Gaps in LLM Serving Systems [<a href="#" onclick="openPdfViewer('papers/aiops26-Ranganathan.pdf');return false;">View</a>] [<a href="papers/aiops26-Ranganathan.pdf" target="_blank">PDF</a>]</h3>
 								<h5>
 									Authors: Bhala Ranganathan, Minghua Ma, Mickey Zhang, Klein Hu, Rakesh Kelkar, Chetan Bansal (Microsoft)
 								</h5>
@@ -152,7 +152,7 @@
 								<br />
 								<br />
 
-								<h3>Multi-Modal Outage Detection via Graph-Enhanced Retrieval</h3>
+								<h3>Multi-Modal Outage Detection via Graph-Enhanced Retrieval [<a href="#" onclick="openPdfViewer('papers/aiops26-Yadav.pdf');return false;">View</a>] [<a href="papers/aiops26-Yadav.pdf" target="_blank">PDF</a>]</h3>
 								<h5>
 									Authors: Udaivir Yadav, Francisco Mandujano-Reyes, Youjiang Wu (Microsoft)
 								</h5>
@@ -160,7 +160,7 @@
 								<br />
 								<br />
 
-								<h3>Markov Models for Improved Outage Candidate Generation in Supervised Outage Prediction Models</h3>
+								<h3>Markov Models for Improved Outage Candidate Generation in Supervised Outage Prediction Models [<a href="#" onclick="openPdfViewer('papers/aiops26-Mate.pdf');return false;">View</a>] [<a href="papers/aiops26-Mate.pdf" target="_blank">PDF</a>]</h3>
 								<h5>
 									Authors: Aditya Mate, Youjiang Wu, Joe Hu, Udaivir Yadav (Microsoft); Yingnong Dang (Microsoft Azure)
 								</h5>
@@ -168,7 +168,7 @@
 								<br />
 								<br />
 
-								<h3>DAGR: Agentic RCA for Internet-Scale Services</h3>
+								<h3>DAGR: Agentic RCA for Internet-Scale Services [<a href="#" onclick="openPdfViewer('papers/aiops26-Sinha.pdf');return false;">View</a>] [<a href="papers/aiops26-Sinha.pdf" target="_blank">PDF</a>]</h3>
 								<h5>
 									Authors: Sayan Sinha (Georgia Tech/Conviva); Vipul Harsh (Conviva); B. Aditya Prakash (Georgia Tech); Vyas Sekar, Hui Zhang (Carnegie Mellon University/Conviva)
 								</h5>
@@ -236,6 +236,40 @@
 	<script src="plugins/easing/easing.js"></script>
 	<script src="plugins/parallax-js-master/parallax.min.js"></script>
 	<script src="js/speakers.js"></script>
+
+<!-- PDF Viewer Modal -->
+<div id="pdfModal" style="display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.7);z-index:9999;">
+	<div style="position:relative;width:85%;max-width:1000px;height:88%;margin:3% auto;background:#fff;border-radius:8px;box-shadow:0 8px 32px rgba(0,0,0,0.4);overflow:hidden;border:1px solid #ccc;">
+		<div style="display:flex;align-items:center;justify-content:space-between;padding:10px 20px;background:#f5f5f5;border-bottom:1px solid #ddd;">
+			<a id="pdfModalNewTab" href="#" target="_blank" style="color:#1a73e8;font-size:14px;text-decoration:none;"><i class="fa fa-external-link"></i> Open in new tab</a>
+			<a href="#" onclick="closePdfViewer();return false;" style="color:#555;font-size:22px;text-decoration:none;line-height:1;">&times;</a>
+		</div>
+		<object id="pdfModalFrame" data="about:blank" type="application/pdf" style="width:100%;height:calc(100% - 45px);">
+			<p style="padding:40px;text-align:center;">Your browser cannot display this PDF. <a id="pdfModalFallback" href="#" target="_blank">Click here to open it</a>.</p>
+		</object>
+	</div>
+</div>
+<script>
+function openPdfViewer(file) {
+	if (!/^papers\/[a-zA-Z0-9._-]+\.pdf$/.test(file)) return;
+	document.getElementById('pdfModalFrame').data = file;
+	document.getElementById('pdfModalNewTab').href = file;
+	document.getElementById('pdfModalFallback').href = file;
+	document.getElementById('pdfModal').style.display = 'block';
+	document.body.style.overflow = 'hidden';
+}
+function closePdfViewer() {
+	document.getElementById('pdfModal').style.display = 'none';
+	document.getElementById('pdfModalFrame').data = 'about:blank';
+	document.body.style.overflow = '';
+}
+document.getElementById('pdfModal').addEventListener('click', function(e) {
+	if (e.target === this) closePdfViewer();
+});
+document.addEventListener('keydown', function(e) {
+	if (e.key === 'Escape') closePdfViewer();
+});
+</script>
 </body>
 
 </html>
