@@ -244,23 +244,20 @@
 			<a id="pdfModalNewTab" href="#" target="_blank" style="color:#1a73e8;font-size:14px;text-decoration:none;"><i class="fa fa-external-link"></i> Open in new tab</a>
 			<a href="#" onclick="closePdfViewer();return false;" style="color:#555;font-size:22px;text-decoration:none;line-height:1;">&times;</a>
 		</div>
-		<object id="pdfModalFrame" data="about:blank" type="application/pdf" style="width:100%;height:calc(100% - 45px);">
-			<p style="padding:40px;text-align:center;">Your browser cannot display this PDF. <a id="pdfModalFallback" href="#" target="_blank">Click here to open it</a>.</p>
-		</object>
+		<iframe id="pdfModalFrame" style="width:100%;height:calc(100% - 45px);border:none;"></iframe>
 	</div>
 </div>
 <script>
 function openPdfViewer(file) {
 	if (!/^papers\/[a-zA-Z0-9._-]+\.pdf$/.test(file)) return;
-	document.getElementById('pdfModalFrame').data = file;
+	document.getElementById('pdfModalFrame').src = file;
 	document.getElementById('pdfModalNewTab').href = file;
-	document.getElementById('pdfModalFallback').href = file;
 	document.getElementById('pdfModal').style.display = 'block';
 	document.body.style.overflow = 'hidden';
 }
 function closePdfViewer() {
 	document.getElementById('pdfModal').style.display = 'none';
-	document.getElementById('pdfModalFrame').data = 'about:blank';
+	document.getElementById('pdfModalFrame').src = 'about:blank';
 	document.body.style.overflow = '';
 }
 document.getElementById('pdfModal').addEventListener('click', function(e) {
