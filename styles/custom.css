@@ -203,3 +203,42 @@
 .diagram-caption {
   font-size:12px;line-height:12px;
 }
+
+.edition-hero {
+  height: auto;
+  background-color: #081728;
+}
+.edition-art {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.edition-hero .home_content_container {
+  position: relative;
+  top: auto;
+  padding: clamp(14rem, 26vw, 23rem) 0 clamp(5rem, 18vw, 18rem);
+  background: linear-gradient(90deg, rgba(6, 18, 35, .76), transparent 80%);
+}
+.edition-hero .home_date a {
+  color: inherit;
+  text-decoration: underline;
+}
+.edition-page-art {
+  background-image: linear-gradient(90deg, rgba(6, 18, 35, .55), transparent),
+                    url("../images/media-kit/2027-shenzhen.jpg");
+  background-position: center 60%;
+}
+.edition-empty {
+  overflow: visible;
+}
+.workshop-cfp ul {
+  list-style: disc outside;
+  padding-left: 1.5rem;
+  margin-bottom: 1.25rem;
+}
+.workshop-cfp li {
+  margin-bottom: .35rem;
+}
