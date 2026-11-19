@@ -9,6 +9,7 @@ For each conference that the workshop is part of, the website is eventually arch
 For example, the workshop that happened in 2019 is in the folder named "2019".
 <br />
 This way, users can view previous workshops through links in the website's navigation.
+The root pages are the planned FSE 2027 edition. The [2026 archive](2026/index.html) retains the ASPLOS papers and program; its pages use their own components and styles, with shared images, PDFs, fonts, and vendor libraries one level up.
 <br />
 ---------------------------------
 <br />

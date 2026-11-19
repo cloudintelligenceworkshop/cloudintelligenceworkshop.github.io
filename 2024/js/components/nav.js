@@ -21,7 +21,8 @@ document.getElementById('nav').innerHTML=`
                                                 <i class="fa fa-angle-down"></i>
                                             </div>
                                             <div class="dropdown-content">
-                                                <a href="../index.html" aria-label="2026">2026</a>
+                                                <a href="../index.html" aria-label="2027">2027</a>
+                                                <a href="../2026/index.html" aria-label="2026">2026</a>
                                                 <a href="../2025/index.html" aria-label="2025">2025</a>      
                                                 <a href="../2023/index.html" aria-label="2023">2023</a>    
                                                 <a href="../2022/index.html" aria-label="2022">2022</a>

@@ -4,9 +4,9 @@ document.getElementById('cta').innerHTML=`
 	<div class="container">
 		<div class="row">
 		<div class="col">
-			<div class="cta_title">Need to find us?</div>
+			<div class="cta_title">Questions about the workshop?</div>
 			<div class="button cta_button">
-				<a href="mailto:cloudintelligenceworkshop@gmail.com">Contact</a>
+				<a href="contact.html">Contact</a>
 			</div>
 		</div>
 		</div>
